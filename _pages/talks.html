@@ -5,12 +5,18 @@ permalink: /talks/
 author_profile: true
 ---
 
-{% if site.talkmap_link == true %}
+<p>All talks listed here have a recorded video available.</p>
 
-<p style="text-decoration:underline;"><a href="/talkmap.html">See a map of all the places I've given a talk!</a></p>
+<h2 id="scientific-talks">Scientific Talks</h2>
 
-{% endif %}
+{% assign science_talks = site.talks | where: "category", "science" %}
+{% for post in science_talks reversed %}
+  {% include archive-single-talk.html %}
+{% endfor %}
 
-{% for post in site.talks reversed %}
+<h2 id="outreach-talks">Outreach Talks</h2>
+
+{% assign outreach_talks = site.talks | where: "category", "outreach" %}
+{% for post in outreach_talks reversed %}
   {% include archive-single-talk.html %}
 {% endfor %}
