@@ -27,8 +27,7 @@ layout: single
   <section class="project-audio" aria-labelledby="listen">
     <h2 id="listen">{% if language == 'es' %}Escuchar la experiencia sonora{% else %}Listen to the sound experience{% endif %}</h2>
     <p>{% if language == 'es' %}Día de la Ballena 2023. Te recomendamos escuchar con auriculares. Audio en español.{% else %}Whale Day 2023. Headphones recommended. Audio in Spanish.{% endif %}</p>
-    <audio controls preload="none" aria-label="Sonidos del Mar — Día de la Ballena 2023"><source src="{{ project.audio | relative_url }}" type="audio/mpeg">{% if language == 'es' %}Tu navegador no admite este reproductor.{% else %}Your browser does not support this audio player.{% endif %}</audio>
-    <p><a href="{{ project.audio | relative_url }}" download>{% if language == 'es' %}Descargar experiencia sonora (MP3){% else %}Download sound experience (MP3){% endif %}</a></p>
+    <audio controls controlslist="nodownload" preload="none" aria-label="Sonidos del Mar — Día de la Ballena 2023"><source src="{{ project.audio | relative_url }}" type="audio/mpeg">{% if language == 'es' %}Tu navegador no admite este reproductor.{% else %}Your browser does not support this audio player.{% endif %}</audio>
   </section>
   {% endif %}
   {% if project.downloads %}
