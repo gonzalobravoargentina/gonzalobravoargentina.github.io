@@ -1,6 +1,6 @@
 - id: ojos-al-mar
   title: "Ojos al Mar"
-  cover: /images/projects/ojos-al-mar.jpg
+  cover: /images/projects/ojos-al-mar-horizontal.png
   fit: contain
   es:
     summary: "Un viaje documental al corazón de la Patagonia, entre el océano, sus paisajes y las personas que lo habitan."
@@ -20,7 +20,7 @@
       en: "View documentary poster"
 - id: anawa
   title: "Anawa"
-  cover: /images/projects/anawa.jpg
+  cover: /images/projects/anawa-horizontal.png
   fit: contain
   es:
     summary: "Cortometraje submarino y experiencia de encuentro para regresar al océano a través del arte y la sensibilidad."
@@ -71,7 +71,7 @@
       en: "Explore Oceanar"
 - id: sonidos-del-mar
   title: "Sonidos del Mar"
-  cover: /images/projects/sonidos-del-mar.jpg
+  cover: /images/projects/sonidos-del-mar-horizontal.png
   fit: contain
   audio: /files/projects/sonidos-del-mar-dia-ballena-2023.mp3
   es:
@@ -99,7 +99,7 @@
       en: "Sonidos del Mar presentation (2023, Spanish)"
 - id: habitar-las-algas
   title: "Habitar las Algas"
-  cover: /images/projects/habitar-las-algas.png
+  cover: /images/projects/habitar-las-algas-horizontal.png
   fit: contain
   es:
     summary: "Residencias de coexistencia con bosques de macroalgas patagónicos, entre ciencia, arte y educación oceánica."
@@ -108,7 +108,7 @@
 
       Sus residencias en Chubut y Ushuaia reúnen personas para explorar ecosistemas costeros e intercambiar saberes. El proyecto comparte estas experiencias mediante fotografía submarina, documentales y actividades educativas inmersivas en 360°.
 
-      La imagen de presentación corresponde a las residencias 2025–2026. Encontrá más información sobre el proyecto en su sitio web.
+      La imagen de presentación corresponde a las residencias 2025–2026. Podés consultar y descargar la presentación del proyecto, o conocer más en su sitio web.
   en:
     summary: "Coexistence residencies with Patagonian kelp forests, bringing together science, art, and ocean education."
     body: |
@@ -116,14 +116,18 @@
 
       Its residencies in Chubut and Ushuaia bring people together to explore coastal ecosystems and exchange knowledge. Underwater photography, documentaries, and immersive 360° educational activities share these experiences with wider audiences.
 
-      The supplied image presents the 2025–2026 residencies. Visit the project website for further information.
+      The cover presents the 2025–2026 residencies. Read or download the project presentation, or visit its website for further information.
+  downloads:
+    - file: /files/projects/habitar-las-algas.pdf
+      es: "Presentación de Habitar las Algas"
+      en: "Habitar las Algas presentation (Spanish)"
   links:
     - url: https://www.habitaralgas.com/
       es: "Conocer Habitar las Algas"
       en: "Explore Habitar las Algas"
 - id: mbon-pole-to-pole
   title: "MBON Pole to Pole of the Americas"
-  cover: /images/projects/mbon.jpg
+  cover: /images/projects/mbon-horizontal.png
   fit: contain
   es:
     summary: "Monitoreo de biodiversidad, fotocuadrantes, inteligencia artificial y dashboards interactivos."
