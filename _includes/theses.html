@@ -1,0 +1,10 @@
+<section aria-labelledby="theses">
+  <h2 id="theses">{% if page.lang == 'es' %}Tesis{% else %}Theses{% endif %}</h2>
+  {% for thesis in site.data.theses %}
+  <article class="archive__item">
+    <h3><a href="{{ thesis.file | relative_url }}">{{ thesis.title }}</a></h3>
+    <p>{% if page.lang == 'es' %}{{ thesis.degree_es }}{% else %}{{ thesis.degree_en }}{% endif %} · {{ thesis.year }}<br>{{ thesis.university }}</p>
+    <p><a href="{{ thesis.file | relative_url }}">{% if page.lang == 'es' %}Consultar tesis (PDF){% else %}Read thesis (PDF){% endif %}</a> · <a href="{{ thesis.file | relative_url }}" download>{% if page.lang == 'es' %}Descargar PDF{% else %}Download PDF{% endif %}</a></p>
+  </article>
+  {% endfor %}
+</section>

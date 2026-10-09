@@ -6,6 +6,7 @@ lang: es
 author_profile: true
 ---
 <p>También podés consultar mis artículos en <a href="{{ site.author.googlescholar }}">Google Scholar</a>. Se conservan los títulos y las referencias bibliográficas originales.</p>
+{% include theses.html %}
 {% for category in site.publication_category %}
   {% assign title_shown = false %}
   {% for post in site.publications reversed %}
