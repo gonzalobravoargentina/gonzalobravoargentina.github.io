@@ -97,7 +97,8 @@
     font-size: 0.75em;
     font-weight: 600;
     line-height: 1.4;
-    color: var(--global-text-color);
+    color: var(--global-link-color);
+    background: rgba(82, 173, 200, 0.12);
     transition: border-color 0.15s ease, color 0.15s ease;
 
     &::before { display: none; }
@@ -127,11 +128,13 @@
 
 .masthead__menu {
   display: flex;
+  flex-wrap: nowrap;
+  width: 100%;
   align-items: center;
   gap: 1em;
 
   .greedy-nav {
-    flex: 1;
+    flex: 1 1 0%;
     min-width: 0;
   }
 
@@ -141,6 +144,11 @@
     flex: 0 0 auto;
     gap: 0.8em;
     margin-left: auto;
+    clear: none;
+    padding: 0;
+    list-style: none;
+
+    > li { margin: 0; }
 
     #theme-toggle a {
       display: inline-flex;
@@ -149,7 +157,15 @@
       width: 36px;
       height: 36px;
       cursor: pointer;
-      color: var(--global-masthead-link-color);
+      color: var(--global-link-color);
+      background: rgba(82, 173, 200, 0.12);
+      border: 1px solid var(--global-border-color);
+      border-radius: 50%;
+
+      &:focus-visible {
+        outline: 2px solid var(--global-link-color);
+        outline-offset: 3px;
+      }
     }
   }
 }
