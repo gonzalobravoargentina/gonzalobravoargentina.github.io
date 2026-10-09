@@ -14,6 +14,8 @@ author_profile: true
 
 Desde 2019 trabajo como asistente de investigación y gestor de datos en la [Red de Observación de Biodiversidad Marina (MBON) Polo a Polo](https://marinebon.github.io/p2p/members.html), realizando relevamientos intermareales y desarrollando protocolos de monitoreo de costas rocosas mediante fotocuadrantes georreferenciados y clasificación con inteligencia artificial. Organicé talleres de capacitación en Camarones (2023) y Ushuaia (2024).
 
+También trabajo en dashboards interactivos para explorar y visualizar datos de monitoreo de biodiversidad, como el [dashboard de monitoreo intermareal](https://mbon-poletopole.shinyapps.io/monitoreo-intermareal/).
+
 ## Oceanar: seres de agua
 
 Fundé [Oceanar: seres de agua](https://www.instagram.com/gonzalobravopatagonia/) en 2022. El proyecto combina arte submarino, exploración mediante buceo y saberes marinos para conectar a las personas con el océano a través de la fotografía y los relatos.
