@@ -52,6 +52,5 @@
     {% if post.date %}<p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {% if page.lang == 'es' %}{{ post.date | date: '%d/%m/%Y' }}{% else %}{{ post.date | date: '%B %d, %Y' }}{% endif %}</p>{% endif %}
     {% if post.venue %}<p class="archive__item-excerpt">{% if page.lang == 'es' %}{% if post.category == 'science' %}Charla científica{% else %}Charla de comunicación de la ciencia{% endif %}{% else %}{{ post.type }}{% endif %}, {{ post.venue }}{% if post.location %}, {{ post.location }}{% endif %}</p>{% endif %}
     {% if page.lang == 'es' %}<p>Idioma: español</p>{% elsif post.excerpt %}<div class="archive__item-excerpt">{{ post.excerpt | markdownify }}</div>{% endif %}
-    {% if post.link %}<p><a href="{{ post.link }}" target="_blank" rel="noopener"><i class="fa fa-play-circle" aria-hidden="true"></i> {% if page.lang == 'es' %}Ver video{% else %}Watch video{% endif %}</a></p>{% endif %}
   </article>
 </div>
