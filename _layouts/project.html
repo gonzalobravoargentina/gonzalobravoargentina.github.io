@@ -10,6 +10,19 @@ layout: single
   <img class="project-detail__cover" src="{{ project.cover | relative_url }}" alt="{{ project.title | escape }}">
   {% if project.id == 'mbon-pole-to-pole' %}<img src="{{ '/images/projects/mbon-logo.png' | relative_url }}" alt="Marine Biodiversity Observation Network" width="72" height="72">{% endif %}
   {{ text.body | markdownify }}
+  {% if project.videos %}
+  <section aria-labelledby="project-videos">
+    <h2 id="project-videos">{% if language == 'es' %}Videos{% else %}Videos{% endif %}</h2>
+    <div class="project-videos">
+      {% for video in project.videos %}
+      <a class="project-video" href="{{ video.url | escape }}" target="_blank" rel="noopener noreferrer">
+        <span class="project-video__thumbnail"><img src="https://i.ytimg.com/vi/{{ video.youtube_id }}/hqdefault.jpg" alt="{{ video[language] | escape }}" loading="lazy"><span class="project-video__play" aria-hidden="true">▶</span></span>
+        <span class="project-video__title">{{ video[language] }}</span>
+      </a>
+      {% endfor %}
+    </div>
+  </section>
+  {% endif %}
   {% if project.audio %}
   <section class="project-audio" aria-labelledby="listen">
     <h2 id="listen">{% if language == 'es' %}Escuchar la experiencia sonora{% else %}Listen to the sound experience{% endif %}</h2>

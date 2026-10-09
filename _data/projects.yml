@@ -22,6 +22,15 @@
   title: "Anawa"
   cover: /images/projects/anawa-horizontal.png
   fit: contain
+  videos:
+    - youtube_id: qpimlkV6Pqg
+      url: https://www.youtube.com/watch?v=qpimlkV6Pqg&t=4s
+      es: "Anawa — Cortometraje"
+      en: "Anawa — Short film"
+    - youtube_id: BlgmyxxaCNY
+      url: https://www.youtube.com/watch?v=BlgmyxxaCNY
+      es: "Anawa — Detrás de cámaras"
+      en: "Anawa — Behind the scenes"
   es:
     summary: "Cortometraje submarino y experiencia de encuentro para regresar al océano a través del arte y la sensibilidad."
     body: |
