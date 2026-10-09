@@ -1,0 +1,17 @@
+{% assign language = page.lang | default: 'en' %}
+<div class="projects-grid">
+{% for project in site.data.projects %}
+  {% assign text = project[language] %}
+  {% capture project_url %}{% if language == 'es' %}/es{% endif %}/portfolio/{{ project.id }}/{% endcapture %}
+  <article class="project-card">
+    <a class="project-card__image" href="{{ project_url | relative_url }}" aria-label="{{ project.title | escape }}">
+      <img src="{{ project.cover | relative_url }}" alt="{{ project.title | escape }}" loading="lazy" decoding="async" style="object-fit: {{ project.fit | default: 'cover' }}">
+    </a>
+    <div class="project-card__body">
+      <h2><a href="{{ project_url | relative_url }}">{{ project.title }}</a></h2>
+      <p>{{ text.summary }}</p>
+      <a class="project-card__more" href="{{ project_url | relative_url }}">{% if language == 'es' %}Saber más{% else %}Read more{% endif %} →</a>
+    </div>
+  </article>
+{% endfor %}
+</div>

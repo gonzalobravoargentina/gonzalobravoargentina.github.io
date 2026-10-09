@@ -2,6 +2,10 @@
 title: "Proyectosub"
 excerpt: "Science communication and outreach project on marine invertebrates of the Patagonian Atlantic coast (2013-2023), co-founded by Gonzalo Bravo."
 collection: portfolio
+layout: project
+project_id: proyectosub
+share: false
+comments: false
 ---
 
 Co-founder and scientific diver at [Proyectosub](https://www.proyectosub.org.ar/), a citizen-science and outreach project working with marine invertebrates of the Atlantic coast of Patagonia (2013-2023). Activities included:

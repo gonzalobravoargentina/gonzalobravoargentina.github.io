@@ -29,13 +29,18 @@ El sitio reúne mi trayectoria, publicaciones, charlas con video y proyectos sob
 | Currículum | `_pages/cv.md` |
 | Publicaciones | `_publications/` |
 | Charlas con video | `_talks/` |
-| Proyectos de divulgación | `_portfolio/` |
+| Textos, portadas y recursos de proyectos (español e inglés) | `_data/projects.yml` |
+| Páginas de proyectos | `_portfolio/` y `_pages/es-project-*.html` |
+| Portadas de proyectos | `images/projects/` |
+| PDF y audio de proyectos | `files/projects/` |
 | Menú | `_data/navigation.yml` |
 | Perfil y configuración | `_config.yml` |
 | Foto | `images/profile.png` |
 | PDFs descargables | `files/` |
 
-Para agregar una publicación, charla o proyecto, copiá un archivo de la carpeta correspondiente con un nombre nuevo y actualizá sus datos y texto. En las charlas, usá `category: science` o `category: outreach` y agregá la grabación en `link`.
+Para agregar una publicación o charla, copiá un archivo de la carpeta correspondiente con un nombre nuevo y actualizá sus datos y texto. En las charlas, usá `category: science` o `category: outreach` y agregá la grabación en `link`.
+
+Los proyectos de Comunicación de la ciencia se editan en `_data/projects.yml`: cada entrada tiene título, portada, textos `es` y `en`, enlaces y descargas. Para sumar un proyecto, agregá también su página en `_portfolio/` y su equivalente en `_pages/`, con `layout: project` y el mismo `project_id`. Los PDF y el audio se conservan en `files/projects/`; no agregues archivos de más de 100 MB.
 
 No edites `_site/`: contiene archivos generados automáticamente.
 

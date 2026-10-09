@@ -1,0 +1,215 @@
+- id: ojos-al-mar
+  title: "Ojos al Mar"
+  cover: /images/projects/ojos-al-mar.jpg
+  fit: contain
+  es:
+    summary: "Un viaje documental al corazón de la Patagonia, entre el océano, sus paisajes y las personas que lo habitan."
+    body: |
+      **Ojos al Mar: un viaje al corazón de la Patagonia** reúne miradas y experiencias vinculadas al mar patagónico. Formo parte de este documental, dirigido por Victoria Bornaz, que integra exploración, sensibilidad y relatos del territorio.
+
+      El afiche anuncia su selección oficial en el Patagonia Eco Film Fest 2024. La película es una producción de Primavera Films, Muñeco TV, Water Journey y Oceanar, con apoyo de la Fundación de Estudios Patagónicos.
+  en:
+    summary: "A documentary journey into the heart of Patagonia, its ocean, landscapes, and people."
+    body: |
+      **Ojos al Mar: un viaje al corazón de la Patagonia** brings together perspectives and experiences of the Patagonian sea. I am part of this documentary directed by Victoria Bornaz, combining exploration, sensitivity, and stories from the region.
+
+      Its poster announces an official selection at the Patagonia Eco Film Fest 2024. The film is a production by Primavera Films, Muñeco TV, Water Journey, and Oceanar, with support from Fundación de Estudios Patagónicos.
+  links:
+    - url: /images/projects/ojos-al-mar.jpg
+      es: "Ver afiche del documental"
+      en: "View documentary poster"
+- id: anawa
+  title: "Anawa"
+  cover: /images/projects/anawa.jpg
+  fit: contain
+  es:
+    summary: "Cortometraje submarino y experiencia de encuentro para regresar al océano a través del arte y la sensibilidad."
+    body: |
+      **Anawa: momento de regresar al océano** es un cortometraje de 12 minutos filmado en aguas patagónicas y estrenado en 2022. A través del lenguaje audiovisual, invita a reencontrarnos con el océano, la memoria y nuestra propia expresión creativa.
+
+      La dirección y el guion son de Laura Babahekian y Candelaria Piemonte. Participé en la producción y en la logística y seguridad marina. Las proyecciones se acompañan de encuentros donde compartir sentires, saberes y conversaciones sobre nuestra relación con el mundo natural.
+
+      **La historia detrás de la metáfora**, de Candelaria Belén Piemonte, María Laura Babahekian y Gonzalo Bravo, amplía el universo del cortometraje. El documento adjunto indica Puerto Madryn, 2026.
+  en:
+    summary: "An underwater short film and shared experience reconnecting us with the ocean through art and sensitivity."
+    body: |
+      **Anawa: time to return to the ocean** is a 12-minute short film shot in Patagonian waters and released in 2022. Through audiovisual storytelling, it invites us to reconnect with the ocean, memory, and our own creative expression.
+
+      Directed and written by Laura Babahekian and Candelaria Piemonte, the project involved my participation in production and marine logistics and safety. Screenings are accompanied by gatherings to share feelings, knowledge, and conversations about our relationship with the natural world.
+
+      **La historia detrás de la metáfora**, by Candelaria Belén Piemonte, María Laura Babahekian, and Gonzalo Bravo, explores the world behind the film. The supplied document is dated Puerto Madryn, 2026.
+  downloads:
+    - file: /files/projects/anawa-historia-metafora.pdf
+      es: "La historia detrás de la metáfora (español, versión web)"
+      en: "The story behind the metaphor (Spanish, web edition)"
+    - file: /files/projects/anawa-dossier-en.pdf
+      es: "Dossier de Anawa (inglés)"
+      en: "Anawa dossier (English)"
+- id: oceanar
+  title: "Oceanar: seres de agua"
+  cover: /images/projects/oceanar.png
+  fit: contain
+  es:
+    summary: "Arte, tecnología y encuentro para crear experiencias inmersivas que nos conecten sensiblemente con el océano."
+    body: |
+      Formo parte de **Oceanar: seres de agua** desde 2022. El proyecto reúne arte, exploración submarina, tecnología y saberes marinos para acercar el océano a distintos públicos y territorios.
+
+      Sus propuestas combinan fotografía, relatos audiovisuales, experiencias sonoras y encuentros colectivos. La sensibilidad y la curiosidad son el punto de partida para reconocer nuestra relación con el mar y promover vínculos más saludables con él.
+
+      En esta sección podés explorar **Anawa**, **Sonidos del Mar** y **Ojos al Mar**, con sus materiales de presentación y recursos para conocer más.
+  en:
+    summary: "Art, technology, and shared encounters creating immersive experiences that connect us with the ocean."
+    body: |
+      I have been part of **Oceanar: seres de agua** since 2022. The project brings together art, underwater exploration, technology, and marine knowledge to bring the ocean closer to different audiences and places.
+
+      Its activities combine photography, audiovisual storytelling, sound experiences, and collective gatherings. Sensitivity and curiosity provide a starting point for understanding our relationship with the sea and nurturing healthier connections with it.
+
+      Explore **Anawa**, **Sonidos del Mar**, and **Ojos al Mar** in this section, including their presentation materials and further resources.
+  links:
+    - url: https://www.oceanar.org
+      es: "Conocer Oceanar"
+      en: "Explore Oceanar"
+- id: sonidos-del-mar
+  title: "Sonidos del Mar"
+  cover: /images/projects/sonidos-del-mar.jpg
+  fit: contain
+  audio: /files/projects/sonidos-del-mar-dia-ballena-2023.mp3
+  es:
+    summary: "Una experiencia sonora oceánica nacida en el Golfo Nuevo: escuchar las voces del mar y sus cetáceos."
+    body: |
+      **Sonidos del Mar** es una propuesta de Oceanar nacida en las aguas del Golfo Nuevo, Península Valdés. Invita a escuchar sensiblemente el océano a través de registros subacuáticos, música y relatos del territorio.
+
+      Las vocalizaciones de cetáceos fueron grabadas con hidrófono por **Claudio Nicolini**, guía ballenero, buzo, fotógrafo y naturalista de Puerto Pirámides. El diseño y la mezcla sonora son de **Mariano Cukierman**, y la música original de **Juan Meisen y Joaquín Novoa**.
+
+      La experiencia compartida aquí corresponde al **Día de la Ballena 2023**. El material de 2025 presenta el origen del viaje sonoro y la historia de Garra, la ballena que la comunidad de Puerto Pirámides ayudó a liberar en 2002.
+  en:
+    summary: "An ocean sound experience from Nuevo Gulf: listening to the voices of the sea and its cetaceans."
+    body: |
+      **Sonidos del Mar** is an Oceanar project originating in Nuevo Gulf, Península Valdés. It invites us to listen closely to the ocean through underwater recordings, music, and stories from the region.
+
+      Cetacean vocalizations were recorded with a hydrophone by **Claudio Nicolini**, a whale-watching guide, diver, photographer, and naturalist from Puerto Pirámides. Sound design and mixing are by **Mariano Cukierman**, with original music by **Juan Meisen and Joaquín Novoa**.
+
+      The audio shared here is the **Whale Day 2023** experience. The 2025 document introduces the sound journey and the story of Garra, the whale that the Puerto Pirámides community helped release in 2002.
+  downloads:
+    - file: /files/projects/sonidos-del-mar-2025.pdf
+      es: "El origen del viaje sonoro (2025)"
+      en: "The origins of the sound journey (2025, Spanish)"
+    - file: /files/projects/sonidos-del-mar-2023.pdf
+      es: "Presentación de Sonidos del Mar (2023)"
+      en: "Sonidos del Mar presentation (2023, Spanish)"
+- id: habitar-las-algas
+  title: "Habitar las Algas"
+  cover: /images/projects/habitar-las-algas.png
+  fit: contain
+  es:
+    summary: "Residencias de coexistencia con bosques de macroalgas patagónicos, entre ciencia, arte y educación oceánica."
+    body: |
+      **Habitar las Algas** explora la coexistencia con los bosques de macroalgas patagónicos a través de experiencias compartidas, ciencia, arte y educación oceánica.
+
+      Sus residencias en Chubut y Ushuaia reúnen personas para explorar ecosistemas costeros e intercambiar saberes. El proyecto comparte estas experiencias mediante fotografía submarina, documentales y actividades educativas inmersivas en 360°.
+
+      La imagen de presentación corresponde a las residencias 2025–2026. Encontrá más información sobre el proyecto en su sitio web.
+  en:
+    summary: "Coexistence residencies with Patagonian kelp forests, bringing together science, art, and ocean education."
+    body: |
+      **Habitar las Algas** explores coexistence with Patagonian kelp forests through shared experiences, science, art, and ocean education.
+
+      Its residencies in Chubut and Ushuaia bring people together to explore coastal ecosystems and exchange knowledge. Underwater photography, documentaries, and immersive 360° educational activities share these experiences with wider audiences.
+
+      The supplied image presents the 2025–2026 residencies. Visit the project website for further information.
+  links:
+    - url: https://www.habitaralgas.com/
+      es: "Conocer Habitar las Algas"
+      en: "Explore Habitar las Algas"
+- id: mbon-pole-to-pole
+  title: "MBON Pole to Pole of the Americas"
+  cover: /images/projects/mbon.jpg
+  fit: contain
+  es:
+    summary: "Monitoreo de biodiversidad, fotocuadrantes, inteligencia artificial y dashboards interactivos."
+    body: |
+      Desde 2019 trabajo como asistente de investigación y gestor de datos en **MBON Polo a Polo de las Américas**, realizando relevamientos intermareales y desarrollando protocolos de monitoreo de costas rocosas mediante fotocuadrantes georreferenciados y clasificación con inteligencia artificial.
+
+      Organicé talleres de capacitación en Camarones (2023) y Ushuaia (2024). También trabajo en dashboards interactivos para explorar y visualizar datos de monitoreo de biodiversidad.
+
+      Aquí comparto el material **Protocolo para monitoreo de la biodiversidad bentónica en costas rocosas**, que integra técnicas de muestreo, redes de trabajo y análisis de imágenes.
+  en:
+    summary: "Biodiversity monitoring, photoquadrats, artificial intelligence, and interactive dashboards."
+    body: |
+      Since 2019 I have worked as a research assistant and data manager for **MBON Pole to Pole of the Americas**, conducting intertidal biodiversity surveys and developing rocky-shore monitoring protocols using georeferenced photoquadrats and artificial intelligence classification tools.
+
+      I organized training workshops in Camarones (2023) and Ushuaia (2024). I also work on interactive dashboards to explore and visualize biodiversity monitoring data.
+
+      The downloadable **Protocol for monitoring benthic biodiversity on rocky shores** brings together sampling techniques, collaborative networks, and image analysis.
+  links:
+    - url: https://mbon-poletopole.shinyapps.io/monitoreo-intermareal/
+      es: "Dashboard de monitoreo intermareal"
+      en: "Intertidal monitoring dashboard"
+    - url: https://marinebon.github.io/p2p/members.html
+      es: "Conocer la red MBON"
+      en: "Explore the MBON network"
+  downloads:
+    - file: /files/projects/protocolo-mbon.pdf
+      es: "Protocolo MBON (español)"
+      en: "MBON protocol (Spanish)"
+- id: relato
+  title: "RELATO"
+  cover: /images/projects/relato.jpg
+  fit: contain
+  es:
+    summary: "Una red latinoamericana que conecta educación marina, ciencia, comunidades y cultura oceánica."
+    body: |
+      Desde 2020 coordino las actividades de Argentina en la **Red de Educación Latinoamericana para el Océano (RELATO)**. Organizo actividades educativas y encuentros regionales, incluido el 1.er Encuentro en Educación Marina de Latinoamérica (2021).
+
+      La red busca fortalecer, visibilizar y profesionalizar la educación marina en Latinoamérica y el Caribe. Conecta educadores, científicos, docentes y comunidades, compartiendo recursos didácticos, encuentros y proyectos.
+
+      Su **Oceanoteca** reúne juegos, guías, afiches, actividades de aula y propuestas artísticas. El documento descargable presenta principios de cultura oceánica, dinámicas y buenas prácticas.
+  en:
+    summary: "A Latin American network connecting marine education, science, communities, and ocean literacy."
+    body: |
+      Since 2020 I have coordinated activities in Argentina for the **Latin American Education Network for the Ocean (RELATO)**, organizing educational activities and regional meetings, including the 1st Latin American Meeting on Marine Education (2021).
+
+      The network strengthens and raises the profile of marine education in Latin America and the Caribbean. It connects educators, scientists, teachers, and communities through educational resources, gatherings, and projects.
+
+      Its **Oceanoteca** brings together games, guides, posters, classroom activities, and artistic proposals. The downloadable presentation covers ocean literacy principles, activities, and good practices.
+  links:
+    - url: https://www.relatoceano.org/
+      es: "Conocer RELATO"
+      en: "Explore RELATO"
+    - url: https://www.relatoceano.org/recursoseducativos
+      es: "Explorar la Oceanoteca"
+      en: "Explore the Oceanoteca"
+  downloads:
+    - file: /files/projects/relato.pdf
+      es: "Cultura oceánica, dinámicas y buenas prácticas"
+      en: "Ocean literacy, activities, and good practices (Spanish)"
+- id: proyectosub
+  title: "Proyectosub"
+  cover: /images/projects/proyectosub.png
+  fit: contain
+  es:
+    summary: "Ciencia ciudadana, fotografía submarina y recursos educativos sobre la biodiversidad patagónica."
+    body: |
+      Soy cofundador de **Proyectosub**, donde trabajé como buzo científico y comunicador de la ciencia entre 2013 y 2023. El proyecto se centra en los invertebrados marinos de la costa atlántica patagónica.
+
+      Participé en el desarrollo de materiales educativos y afiches, la coordinación de la gira **Proyectosub Sudamérica**, el registro de fotografías y videos de vida submarina, y charlas en escuelas, universidades y encuentros científicos.
+
+      También participé en el documental y la serie de CONICET/TECtv. Los afiches educativos están disponibles en la web de Proyectosub.
+  en:
+    summary: "Citizen science, underwater photography, and educational resources about Patagonian biodiversity."
+    body: |
+      I co-founded **Proyectosub**, working as a scientific diver and science communicator between 2013 and 2023. The project focuses on marine invertebrates along the Atlantic coast of Patagonia.
+
+      My activities included educational materials and posters, coordination of the **Proyectosub Sudamérica** outreach tour, underwater photography and video, and talks at schools, universities, and scientific meetings.
+
+      I also participated in the CONICET/TECtv documentary and television series. Educational posters are available through the Proyectosub website.
+  links:
+    - url: https://www.proyectosub.org.ar/
+      es: "Conocer Proyectosub"
+      en: "Explore Proyectosub"
+    - url: https://www.proyectosub.org.ar/es/descargas/afiches
+      es: "Afiches educativos para descargar"
+      en: "Download educational posters"
+    - url: http://www.tectv.gob.ar/programacion-series/proyecto-sub
+      es: "Serie de televisión"
+      en: "Television series"

@@ -28,7 +28,7 @@
               <a href="{{ base_path }}{{ page.url | remove_first: '/es' }}" lang="en" hreflang="en" aria-label="Switch to English"><i class="fa-solid fa-globe" aria-hidden="true"></i> English</a>
             {% else %}
               {% assign translated_path = '/' %}
-              {% if page.url == '/talks/' or page.url == '/publications/' or page.url == '/portfolio/' or page.url == '/cv/' or page.url == '/images-repository/' %}{% assign translated_path = page.url %}{% endif %}
+              {% if page.url == '/talks/' or page.url == '/publications/' or page.url contains '/portfolio/' or page.url == '/cv/' or page.url == '/images-repository/' %}{% assign translated_path = page.url %}{% endif %}
               <a href="{{ base_path }}/es{{ translated_path }}" lang="es" hreflang="es" aria-label="Cambiar a español"><i class="fa-solid fa-globe" aria-hidden="true"></i> Español</a>
             {% endif %}
           </li>

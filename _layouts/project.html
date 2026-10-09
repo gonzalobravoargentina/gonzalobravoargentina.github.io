@@ -1,0 +1,31 @@
+---
+layout: single
+---
+{% assign project = site.data.projects | where: 'id', page.project_id | first %}
+{% assign language = page.lang | default: 'en' %}
+{% assign text = project[language] %}
+<div class="project-detail">
+  {% capture index_url %}{% if language == 'es' %}/es{% endif %}/portfolio/{% endcapture %}
+  <p><a href="{{ index_url | relative_url }}" class="project-back">{% if language == 'es' %}← Todos los proyectos{% else %}← All projects{% endif %}</a></p>
+  <img class="project-detail__cover" src="{{ project.cover | relative_url }}" alt="{{ project.title | escape }}">
+  {% if project.id == 'mbon-pole-to-pole' %}<img src="{{ '/images/projects/mbon-logo.png' | relative_url }}" alt="Marine Biodiversity Observation Network" width="72" height="72">{% endif %}
+  {{ text.body | markdownify }}
+  {% if project.audio %}
+  <section class="project-audio" aria-labelledby="listen">
+    <h2 id="listen">{% if language == 'es' %}Escuchar la experiencia sonora{% else %}Listen to the sound experience{% endif %}</h2>
+    <p>{% if language == 'es' %}Día de la Ballena 2023. Te recomendamos escuchar con auriculares. Audio en español.{% else %}Whale Day 2023. Headphones recommended. Audio in Spanish.{% endif %}</p>
+    <audio controls preload="none" aria-label="Sonidos del Mar — Día de la Ballena 2023"><source src="{{ project.audio | relative_url }}" type="audio/mpeg">{% if language == 'es' %}Tu navegador no admite este reproductor.{% else %}Your browser does not support this audio player.{% endif %}</audio>
+    <p><a href="{{ project.audio | relative_url }}" download>{% if language == 'es' %}Descargar experiencia sonora (MP3){% else %}Download sound experience (MP3){% endif %}</a></p>
+  </section>
+  {% endif %}
+  {% if project.downloads %}
+  <h2>{% if language == 'es' %}Materiales para descargar{% else %}Downloads{% endif %}</h2>
+  <ul class="project-downloads">
+    {% for resource in project.downloads %}<li><strong>{{ resource[language] }}</strong><br><a href="{{ resource.file | relative_url }}">{% if language == 'es' %}Ver PDF{% else %}View PDF{% endif %}</a> · <a href="{{ resource.file | relative_url }}" download>{% if language == 'es' %}Descargar PDF{% else %}Download PDF{% endif %}</a></li>{% endfor %}
+  </ul>
+  {% endif %}
+  {% if project.links %}
+  <h2>{% if language == 'es' %}Más información{% else %}Further information{% endif %}</h2>
+  <ul>{% for resource in project.links %}<li><a href="{{ resource.url }}">{{ resource[language] }}</a></li>{% endfor %}</ul>
+  {% endif %}
+</div>

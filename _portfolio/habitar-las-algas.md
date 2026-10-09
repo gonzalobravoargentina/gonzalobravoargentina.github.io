@@ -2,6 +2,10 @@
 title: "Habitar las Algas"
 excerpt: "Coexistence with Patagonian kelp forests through shared experiences, science, art, and ocean education."
 collection: portfolio
+layout: project
+project_id: habitar-las-algas
+share: false
+comments: false
 ---
 
 [Habitar las Algas](https://www.habitaralgas.com/) is an initiative exploring coexistence with Patagonian kelp forests through shared experiences, science, art, and ocean education.
