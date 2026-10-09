@@ -18,6 +18,7 @@
     try {
       const params = new URLSearchParams({
         user_login: 'gonzalobravo', photos: 'true', per_page: '100',
+        q: 'galeria-web', search_on: 'tags',
         order: 'desc', order_by: 'observed_on', page: String(page)
       });
       const response = await fetch('https://api.inaturalist.org/v1/observations?' + params);
@@ -26,6 +27,7 @@
       if (!Array.isArray(data.results)) throw new Error('Unexpected response');
       const fragment = document.createDocumentFragment();
       for (const observation of data.results) {
+        if (!(observation.tags || []).includes('galeria-web')) continue;
         const photo = (observation.photos || []).find(p => !p.hidden && p.url);
         if (!photo || seen.has(observation.id)) continue;
         seen.add(observation.id);
@@ -60,7 +62,9 @@
       page++;
       more.hidden = (page - 1) * 100 >= data.total_results || data.results.length === 0;
       more.textContent = es ? 'Cargar más fotos' : 'Load more photos';
-      status.textContent = es ? count + ' fotografías · registros más recientes primero' : count + ' photographs · most recent records first';
+      status.textContent = count === 0
+        ? (es ? 'Todavía no hay fotografías seleccionadas con la etiqueta galeria-web.' : 'No photographs have been selected with the galeria-web tag yet.')
+        : (es ? count + ' fotografías seleccionadas · registros más recientes primero' : count + ' selected photographs · most recent records first');
     } catch (error) {
       status.textContent = es ? 'No se pudieron cargar las fotos. Podés reintentar o visitar la colección en iNaturalist.' : 'Photos could not be loaded. Please retry or visit the collection on iNaturalist.';
       more.hidden = false;

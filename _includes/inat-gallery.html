@@ -1,14 +1,14 @@
 <section class="inat-gallery" data-lang="{{ page.lang | default: 'en' }}">
   {% if page.lang == 'es' %}
-  <p>Un recorrido por mis registros de biodiversidad en iNaturalist. La colección incluye observaciones submarinas e intermareales; cada foto enlaza a su observación, identificación y licencia.</p>
-  <p><a href="https://www.inaturalist.org/observations?user_id=gonzalobravo&photos=true" target="_blank" rel="noopener">Ver mi colección en iNaturalist ↗</a></p>
+  <p>Una selección personal de mis fotografías de biodiversidad submarina e intermareal en iNaturalist, marcadas con la etiqueta <code>galeria-web</code>. La galería se actualiza al abrir la página y muestra hasta 100 fotografías inicialmente, con opción de cargar más. Cada foto enlaza a su observación, identificación y licencia.</p>
+  <p><a href="https://www.inaturalist.org/observations?user_id=gonzalobravo&amp;photos=true&amp;q=galeria-web&amp;search_on=tags" target="_blank" rel="noopener">Ver mi selección en iNaturalist ↗</a></p>
   {% else %}
-  <p>Explore my biodiversity records on iNaturalist. This collection includes underwater and intertidal observations; each photo links to its observation, identification, and license.</p>
-  <p><a href="https://www.inaturalist.org/observations?user_id=gonzalobravo&photos=true" target="_blank" rel="noopener">View my collection on iNaturalist ↗</a></p>
+  <p>A personal selection of my underwater and intertidal biodiversity photographs on iNaturalist, marked with the <code>galeria-web</code> tag. The gallery refreshes when the page is opened and initially displays up to 100 photographs, with the option to load more. Each photo links to its observation, identification, and license.</p>
+  <p><a href="https://www.inaturalist.org/observations?user_id=gonzalobravo&amp;photos=true&amp;q=galeria-web&amp;search_on=tags" target="_blank" rel="noopener">View my selection on iNaturalist ↗</a></p>
   {% endif %}
   <p class="inat-gallery__status" role="status" aria-live="polite"></p>
   <div class="inat-gallery__grid"></div>
   <button class="btn btn--primary inat-gallery__more" type="button" hidden>{% if page.lang == 'es' %}Cargar más fotos{% else %}Load more photos{% endif %}</button>
-  <noscript><p><a href="https://www.inaturalist.org/observations/gonzalobravo">iNaturalist · Gonzalo Bravo</a></p></noscript>
+  <noscript><p><a href="https://www.inaturalist.org/observations?user_id=gonzalobravo&amp;photos=true&amp;q=galeria-web&amp;search_on=tags">iNaturalist · Gonzalo Bravo</a></p></noscript>
 </section>
-<script src="{{ '/assets/js/inat-gallery.js' | relative_url }}" defer></script>
+<script src="{{ '/assets/js/inat-gallery.js' | relative_url }}?v={{ site.time | date: '%s' }}" defer></script>
