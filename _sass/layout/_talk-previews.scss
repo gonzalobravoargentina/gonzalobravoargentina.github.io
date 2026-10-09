@@ -1,3 +1,28 @@
+.talks-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 36px 24px;
+  margin: 24px 0 40px;
+
+  > .list__item { min-width: 0; margin: 0; padding: 0; }
+  .archive__item { margin: 0; }
+  .archive__item-title {
+    margin: 14px 0 10px;
+    font-size: 1em;
+    line-height: 1.4;
+    overflow-wrap: anywhere;
+  }
+  .archive__item-title a { text-decoration: none; }
+  .archive__item-title a:hover { text-decoration: underline; }
+  .page__meta { margin: 0 0 8px; }
+  .archive__item-excerpt, .archive__item > p { font-size: 0.8em; line-height: 1.5; }
+  .talk-video-preview { max-width: none; margin: 0; }
+}
+
+@media (max-width: 640px) {
+  .talks-grid { grid-template-columns: minmax(0, 1fr); }
+}
+
 .talk-video-preview {
   position: relative;
   display: block;

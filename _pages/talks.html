@@ -10,13 +10,17 @@ author_profile: true
 <h2 id="scientific-talks">Scientific Talks</h2>
 
 {% assign science_talks = site.talks | where: "category", "science" %}
+<div class="talks-grid">
 {% for post in science_talks reversed %}
   {% include archive-single-talk.html %}
 {% endfor %}
+</div>
 
 <h2 id="outreach-talks">Outreach Talks</h2>
 
 {% assign outreach_talks = site.talks | where: "category", "outreach" %}
+<div class="talks-grid">
 {% for post in outreach_talks reversed %}
   {% include archive-single-talk.html %}
 {% endfor %}
+</div>

@@ -8,11 +8,15 @@ author_profile: true
 <p>Todas las charlas de esta sección tienen una grabación disponible. Se conservan los títulos originales.</p>
 <h2 id="scientific-talks">Charlas científicas</h2>
 {% assign science_talks = site.talks | where: "category", "science" %}
+<div class="talks-grid">
 {% for post in science_talks reversed %}
   {% include archive-single-talk.html %}
 {% endfor %}
+</div>
 <h2 id="outreach-talks">Charlas de comunicación de la ciencia</h2>
 {% assign outreach_talks = site.talks | where: "category", "outreach" %}
+<div class="talks-grid">
 {% for post in outreach_talks reversed %}
   {% include archive-single-talk.html %}
 {% endfor %}
+</div>
