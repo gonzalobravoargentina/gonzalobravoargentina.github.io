@@ -5,7 +5,7 @@
   {% capture project_url %}{% if language == 'es' %}/es{% endif %}/portfolio/{{ project.id }}/{% endcapture %}
   <article class="project-card">
     <a class="project-card__image" href="{{ project_url | relative_url }}" aria-label="{{ project.title | escape }}">
-      <img src="{{ project.cover | relative_url }}" alt="{{ project.title | escape }}" loading="lazy" decoding="async" style="object-fit: {{ project.fit | default: 'cover' }}">
+      <img src="{{ project.cover | relative_url }}" alt="{{ project.title | escape }}" loading="lazy" decoding="async">
     </a>
     <div class="project-card__body">
       <h2><a href="{{ project_url | relative_url }}">{{ project.title }}</a></h2>

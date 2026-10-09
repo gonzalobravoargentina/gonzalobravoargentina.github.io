@@ -223,6 +223,31 @@
     - url: https://www.proyectosub.org.ar/es/descargas/afiches
       es: "Afiches educativos para descargar"
       en: "Download educational posters"
-    - url: http://www.tectv.gob.ar/programacion-series/proyecto-sub
-      es: "Serie de televisión"
-      en: "Television series"
+- id: documental-proyecto-sub
+  title: "Proyecto Sub — Documental"
+  cover: /images/projects/documental-proyecto-sub.png
+  es:
+    summary: "El documental de Proyecto Sub, en dos capítulos: exploración submarina y comunicación de la ciencia."
+    body: |
+      **Proyecto Sub** es una producción documental de CONICET Documental y TECtv en la que participé. Reúne exploración submarina y comunicación de la ciencia.
+
+      Acá podés ver sus dos capítulos completos en YouTube y consultar el afiche original.
+  en:
+    summary: "The Proyecto Sub documentary in two episodes: underwater exploration and science communication."
+    body: |
+      **Proyecto Sub** is a CONICET Documental and TECtv documentary production in which I participated, bringing together underwater exploration and science communication.
+
+      Watch both full episodes on YouTube below, or view the original poster.
+  videos:
+    - youtube_id: 9RZEwa-AO-E
+      url: https://www.youtube.com/watch?v=9RZEwa-AO-E
+      es: "Proyecto Sub — Capítulo 1"
+      en: "Proyecto Sub — Episode 1"
+    - youtube_id: FIKHupcTojI
+      url: https://www.youtube.com/watch?v=FIKHupcTojI
+      es: "Proyecto Sub — Capítulo 2"
+      en: "Proyecto Sub — Episode 2"
+  links:
+    - url: /images/projects/documental-proyecto-sub-afiche.jpg
+      es: "Ver afiche original"
+      en: "View original poster"
