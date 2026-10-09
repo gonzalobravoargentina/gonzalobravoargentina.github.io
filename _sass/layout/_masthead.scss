@@ -81,7 +81,7 @@
 }
 
 /* Keep the language control visually separate from section navigation. */
-.greedy-nav .visible-links .language-switch {
+.masthead__controls .language-switch {
   margin-left: 0.6em;
   padding-left: 0.8em;
   border-left: 1px solid var(--global-border-color);
@@ -115,8 +115,48 @@
 }
 
 @media (max-width: 480px) {
-  .greedy-nav .visible-links .language-switch {
+  .masthead__controls .language-switch {
     margin-left: 0.2em;
     padding-left: 0.4em;
+  }
+}
+
+.masthead .masthead__inner-wrap {
+  max-width: none;
+}
+
+.masthead__menu {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+
+  .greedy-nav {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .masthead__controls {
+    display: flex;
+    align-items: center;
+    flex: 0 0 auto;
+    gap: 0.8em;
+    margin-left: auto;
+
+    #theme-toggle a {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 36px;
+      height: 36px;
+      cursor: pointer;
+      color: var(--global-masthead-link-color);
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .masthead__menu {
+    gap: 0.4em;
+    .masthead__controls { gap: 0.3em; }
   }
 }

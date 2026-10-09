@@ -18,6 +18,11 @@
               <a href="{{ domain }}{% if page.lang == 'es' %}/es{% endif %}{{ link.url }}">{% if page.lang == 'es' %}{% case link.title %}{% when 'Publications' %}Publicaciones{% when 'Talks' %}Charlas{% when 'Outreach' %}Comunicación de la ciencia{% else %}{{ link.title }}{% endcase %}{% else %}{{ link.title }}{% endif %}</a>
             </li>
           {% endfor %}
+
+        </ul>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+      <ul class="masthead__controls" aria-label="Language and appearance">
           <li class="masthead__menu-item persist language-switch">
             {% if page.lang == 'es' %}
               <a href="{{ base_path }}{{ page.url | remove_first: '/es' }}" lang="en" hreflang="en" aria-label="Switch to English"><i class="fa-solid fa-globe" aria-hidden="true"></i> English</a>
@@ -30,9 +35,7 @@
           <li id="theme-toggle" class="masthead__menu-item persist tail">
             <a role="button" aria-labelledby="theme-icon"><i id="theme-icon" class="fa-solid fa-sun" aria-hidden="true" title="toggle theme"></i></a>
           </li>
-        </ul>
-        <ul class="hidden-links hidden"></ul>
-      </nav>
+      </ul>
     </div>
   </div>
 </div>
