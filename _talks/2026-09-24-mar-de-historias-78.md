@@ -1,5 +1,5 @@
 ---
-title: "Mar de Historias #78"
+title: "Arrecifes rocosos de la Patagonia"
 collection: talks
 category: outreach
 type: "Outreach Talk"
