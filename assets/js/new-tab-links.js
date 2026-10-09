@@ -6,8 +6,11 @@
     let url;
     try { url = new URL(href, document.baseURI); } catch (_) { return; }
     if (!['http:', 'https:'].includes(url.protocol)) return;
-    // In-page navigation stays in the current page.
-    if (url.origin === location.origin && url.pathname === location.pathname && url.search === location.search && url.hash) return;
+    // Keep all navigation within this website in the current tab.
+    if (url.origin === location.origin) {
+      link.removeAttribute('target');
+      return;
+    }
     link.target = '_blank';
     link.relList.add('noopener');
   }
