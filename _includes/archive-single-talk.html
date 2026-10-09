@@ -32,6 +32,20 @@
         <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
       {% endif %}
     </h2>
+    {% assign youtube_id = '' %}
+    {% if post.link contains 'youtube.com/watch?v=' %}
+      {% assign youtube_id = post.link | split: 'v=' | last | split: '&' | first %}
+    {% elsif post.link contains 'youtube.com/live/' %}
+      {% assign youtube_id = post.link | split: '/live/' | last | split: '?' | first %}
+    {% elsif post.link contains 'youtu.be/' %}
+      {% assign youtube_id = post.link | split: 'youtu.be/' | last | split: '?' | first %}
+    {% endif %}
+    {% if youtube_id != '' %}
+      <a class="talk-video-preview" href="{{ post.link | escape }}" target="_blank" rel="noopener" aria-label="{% if page.lang == 'es' %}Ver video{% else %}Watch video{% endif %}: {{ title | strip_html | escape }}">
+        <img src="https://i.ytimg.com/vi/{{ youtube_id | escape }}/hqdefault.jpg" alt="{{ title | strip_html | escape }}" loading="lazy" decoding="async" width="480" height="360">
+        <span class="talk-video-preview__play" aria-hidden="true"><i class="fa-solid fa-play"></i></span>
+      </a>
+    {% endif %}
     {% if post.read_time %}
       <p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
     {% endif %}
