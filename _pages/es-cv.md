@@ -29,7 +29,7 @@ Descargá el currículum completo: [CV en español](/files/CV_ESPANOL_GB.pdf) ·
 - **2018–presente: integrante**, Instituto de Biología de Organismos Marinos (IBIOMAR), Puerto Madryn. Doctorado y posdoctorado.
 - **2018–presente: asesor científico, guía de avistaje de ballenas y patrón de embarcación**, Punta Ballena, Puerto Pirámides. Salidas de avistaje, interpretación como biólogo a bordo y asesoramiento educativo y de sustentabilidad.
 - **2019–presente: asistente de investigación**, [MBON Polo a Polo](https://marinebon.github.io/p2p/members.html), Puerto Madryn. Trabajo de campo, relevamientos intermareales y gestión de datos.
-- **2013–2023: integrante**, Proyectosub, Puerto Madryn. Educación y divulgación sobre invertebrados marinos patagónicos, buceo científico, registros submarinos y presentaciones en escuelas, universidades y reuniones científicas.
+- **2013–2023: integrante**, Proyectosub, Puerto Madryn. Educación y comunicación de la ciencia sobre invertebrados marinos patagónicos, buceo científico, registros submarinos y presentaciones en escuelas, universidades y reuniones científicas.
 - **2016: asistente de investigación**, Laboratorio de Ecología Bentónica, UQAR, Rimouski, Canadá. Procesamiento de muestras de infauna del Ártico, análisis de materia orgánica y macrofotografía de invertebrados.
 - **2005–2013: instructor de buceo y patrón de embarcación**, Aquatours Buceo, Puerto Madryn. Más de 3000 inmersiones, organización de cursos con enfoque en biología marina y fotografía submarina.
 
@@ -39,7 +39,7 @@ Descargá el currículum completo: [CV en español](/files/CV_ESPANOL_GB.pdf) ·
 - Español: lengua materna.
 - Inglés: First Certificate, Universidad de Cambridge.
 - Francés: TFI 745.
-- Recursos de divulgación: [Underwater 360](https://www.youtube.com/watch?v=rYw6tR0xiWg), [afiches educativos](https://www.proyectosub.org.ar/afiches/), [fotografías en iNaturalist](https://www.inaturalist.org/observations?place_id=any&user_id=gonzalobravo&verifiable=any), [guía de iNaturalist](https://www.inaturalist.org/guides/11762), [YouTube](https://www.youtube.com/watch?v=v1yyjdxV0fI), [artículo de cultura oceánica](https://oceanliteracy.unesco.org/nuevo-metodo-para-estudios-de-biodiversidad-marina-amigos-y-goce/) y [serie de televisión](http://www.tectv.gob.ar/programacion-series/proyecto-sub).
+- Recursos de comunicación de la ciencia: [Underwater 360](https://www.youtube.com/watch?v=rYw6tR0xiWg), [afiches educativos](https://www.proyectosub.org.ar/afiches/), [fotografías en iNaturalist](https://www.inaturalist.org/observations?place_id=any&user_id=gonzalobravo&verifiable=any), [guía de iNaturalist](https://www.inaturalist.org/guides/11762), [YouTube](https://www.youtube.com/watch?v=v1yyjdxV0fI), [artículo de cultura oceánica](https://oceanliteracy.unesco.org/nuevo-metodo-para-estudios-de-biodiversidad-marina-amigos-y-goce/) y [serie de televisión](http://www.tectv.gob.ar/programacion-series/proyecto-sub).
 
 ## Becas, premios y subsidios
 
@@ -60,4 +60,4 @@ Descargá el currículum completo: [CV en español](/files/CV_ESPANOL_GB.pdf) ·
 
 ## Publicaciones y charlas
 
-Consultá la lista de [publicaciones](/es/publications/) y las [charlas científicas y de divulgación con video](/es/talks/).
+Consultá la lista de [publicaciones](/es/publications/) y las [charlas científicas y de comunicación de la ciencia con video](/es/talks/).

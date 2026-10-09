@@ -11,7 +11,7 @@ author_profile: true
 {% for post in science_talks reversed %}
   {% include archive-single-talk.html %}
 {% endfor %}
-<h2 id="outreach-talks">Charlas de divulgación</h2>
+<h2 id="outreach-talks">Charlas de comunicación de la ciencia</h2>
 {% assign outreach_talks = site.talks | where: "category", "outreach" %}
 {% for post in outreach_talks reversed %}
   {% include archive-single-talk.html %}

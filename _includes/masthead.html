@@ -15,7 +15,7 @@
               {% assign domain = base_path %}
             {% endif %}
             <li class="masthead__menu-item {% if page.url contains link.url and link.url != '/' %}selected{% endif %}">
-              <a href="{{ domain }}{% if page.lang == 'es' %}/es{% endif %}{{ link.url }}">{% if page.lang == 'es' %}{% case link.title %}{% when 'Publications' %}Publicaciones{% when 'Talks' %}Charlas{% when 'Outreach' %}Divulgación{% else %}{{ link.title }}{% endcase %}{% else %}{{ link.title }}{% endif %}</a>
+              <a href="{{ domain }}{% if page.lang == 'es' %}/es{% endif %}{{ link.url }}">{% if page.lang == 'es' %}{% case link.title %}{% when 'Publications' %}Publicaciones{% when 'Talks' %}Charlas{% when 'Outreach' %}Comunicación de la ciencia{% else %}{{ link.title }}{% endcase %}{% else %}{{ link.title }}{% endif %}</a>
             </li>
           {% endfor %}
           <li class="masthead__menu-item persist language-switch">

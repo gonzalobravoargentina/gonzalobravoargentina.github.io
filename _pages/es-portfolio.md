@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Divulgación"
+title: "Comunicación de la ciencia"
 permalink: /es/portfolio/
 lang: es
 author_profile: true
@@ -23,7 +23,7 @@ Fundé [Oceanar: seres de agua](https://www.instagram.com/gonzalobravopatagonia/
 Soy cofundador de [Proyectosub](https://www.proyectosub.org.ar/), donde trabajé como buzo científico y divulgador entre 2013 y 2023. El proyecto de ciencia ciudadana y comunicación se centra en los invertebrados marinos de la costa atlántica patagónica.
 
 - Desarrollo de materiales educativos, incluidos [afiches de invertebrados patagónicos](https://www.proyectosub.org.ar/afiches/).
-- Coordinación de la gira de divulgación «Proyectosub Sudamérica» por Chile, Perú, Ecuador, Colombia, Venezuela, Brasil, Uruguay y Argentina.
+- Coordinación de la gira de comunicación de la ciencia «Proyectosub Sudamérica» por Chile, Perú, Ecuador, Colombia, Venezuela, Brasil, Uruguay y Argentina.
 - Registro y organización de fotografías y videos de vida submarina.
 - Participación en el documental de CONICET/TECtv y la [serie de televisión](http://www.tectv.gob.ar/programacion-series/proyecto-sub).
 - Charlas en escuelas, universidades y encuentros científicos.
