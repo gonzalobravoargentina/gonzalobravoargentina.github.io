@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: "Gonzalo Bravo"
-excerpt: "Marine Biologist · Scientific Diver · Data Manager"
+excerpt: "Marine Biologist · Scientific Diver · Data Manager · Marine Educator"
 author_profile: true
 redirect_from:
   - /about/

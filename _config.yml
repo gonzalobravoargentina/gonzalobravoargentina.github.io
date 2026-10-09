@@ -12,7 +12,7 @@ site_theme               : "default" # The available themes options are "default
 title                    : "Gonzalo Bravo"
 title_separator          : "-"
 name                     : &name "Gonzalo Bravo"
-description              : &description "Marine Biologist · Scientific Diver · Data Manager. Marine biodiversity monitoring, AI applications for ecology, and ocean literacy."
+description              : &description "Marine Biologist · Scientific Diver · Data Manager · Marine Educator. Marine biodiversity monitoring, AI applications for ecology, and ocean literacy."
 url                      : https://gonzalobravoargentina.github.io
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "gonzalobravoargentina/gonzalobravoargentina.github.io"
@@ -25,7 +25,7 @@ author:
   avatar           : "profile.png"
   name             : "Gonzalo Bravo"
   pronouns         : # example: "she/her"
-  bio              : "Marine Biologist · Scientific Diver · Data Manager"
+  bio              : "Marine Biologist · Scientific Diver · Data Manager · Marine Educator"
   location         : "Puerto Madryn, Chubut, Argentina"
   employer         : "IBIOMAR-CENPAT, CONICET"
   uri              : # URL
