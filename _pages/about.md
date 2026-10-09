@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a marine biologist, scientific diver, and data manager based in Puerto Madryn, Chubut, Argentina, currently doing a postdoctoral fellowship at [IBIOMAR (Instituto de Biología de Organismos Marinos)](http://www.cenpat-conicet.gob.ar/), CCT CONICET-CENPAT. My work sits at the intersection of benthic ecology, underwater imaging, and artificial intelligence: I develop and apply photo-quadrat monitoring protocols and AI-based image classification tools to track the biodiversity of rocky reef communities along the Patagonian coast and beyond.
+I am a marine biologist, scientific diver, and data manager based in Puerto Madryn, Chubut, Argentina, currently doing a postdoctoral fellowship at [IBIOMAR (Instituto de Biología de Organismos Marinos)](https://ibiomar.conicet.gov.ar/), CCT CONICET-CENPAT. My work sits at the intersection of benthic ecology, underwater imaging, and artificial intelligence: I develop and apply photo-quadrat monitoring protocols and AI-based image classification tools to track the biodiversity of rocky reef communities along the Patagonian coast and beyond.
 
 I hold a Ph.D. in Biological Sciences from the Universidad Nacional de la Patagonia San Juan Bosco (UNPSJB), in association with IBIOMAR-CONICET, and an M.Sc. in Oceanography from the Université du Québec à Rimouski (UQAR), where I studied short-term responses of Arctic deep-sea benthic macrofauna. I am also a science communicator and ocean literacy advocate, co-founder of [Proyectosub](https://www.proyectosub.org.ar/) and founder of [Oceanar](https://www.instagram.com/gonzalobravopatagonia/), and I coordinate outreach activities for the Latin American Education Network for the Ocean ([RELATO](https://www.relatoceano.org/)).
 
