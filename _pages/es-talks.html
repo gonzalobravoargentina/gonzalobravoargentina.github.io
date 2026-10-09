@@ -1,0 +1,18 @@
+---
+layout: archive
+title: "Charlas y presentaciones"
+permalink: /es/talks/
+lang: es
+author_profile: true
+---
+<p>Todas las charlas de esta sección tienen una grabación disponible. Se conservan los títulos originales.</p>
+<h2 id="scientific-talks">Charlas científicas</h2>
+{% assign science_talks = site.talks | where: "category", "science" %}
+{% for post in science_talks reversed %}
+  {% include archive-single-talk.html %}
+{% endfor %}
+<h2 id="outreach-talks">Charlas de divulgación</h2>
+{% assign outreach_talks = site.talks | where: "category", "outreach" %}
+{% for post in outreach_talks reversed %}
+  {% include archive-single-talk.html %}
+{% endfor %}
