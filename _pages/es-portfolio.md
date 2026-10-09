@@ -18,7 +18,7 @@ También trabajo en dashboards interactivos para explorar y visualizar datos de 
 
 ## Oceanar: seres de agua
 
-Fundé [Oceanar: seres de agua](https://www.instagram.com/gonzalobravopatagonia/) en 2022. El proyecto combina arte submarino, exploración mediante buceo y saberes marinos para conectar a las personas con el océano a través de la fotografía y los relatos.
+Formo parte de [Oceanar: seres de agua](https://www.instagram.com/gonzalobravopatagonia/) desde 2022. El proyecto combina arte submarino, exploración mediante buceo y saberes marinos para conectar a las personas con el océano a través de la fotografía y los relatos.
 
 ## Proyectosub
 
