@@ -39,7 +39,7 @@ Descargá el currículum completo: [CV en español](/files/CV_ESPANOL_GB.pdf) ·
 - Español: lengua materna.
 - Inglés: First Certificate, Universidad de Cambridge.
 - Francés: TFI 745.
-- Recursos de comunicación de la ciencia: [Underwater 360](https://www.youtube.com/watch?v=rYw6tR0xiWg), [afiches educativos](https://www.proyectosub.org.ar/afiches/), [fotografías en iNaturalist](https://www.inaturalist.org/observations?place_id=any&user_id=gonzalobravo&verifiable=any), [guía de iNaturalist](https://www.inaturalist.org/guides/11762), [YouTube](https://www.youtube.com/watch?v=v1yyjdxV0fI), [artículo de cultura oceánica](https://oceanliteracy.unesco.org/nuevo-metodo-para-estudios-de-biodiversidad-marina-amigos-y-goce/) y [serie de televisión](http://www.tectv.gob.ar/programacion-series/proyecto-sub).
+- Recursos de comunicación de la ciencia: [Underwater 360](https://www.youtube.com/watch?v=rYw6tR0xiWg), [afiches educativos](https://www.proyectosub.org.ar/es/descargas/afiches), [fotografías en iNaturalist](https://www.inaturalist.org/observations?place_id=any&user_id=gonzalobravo&verifiable=any), [guía de iNaturalist](https://www.inaturalist.org/guides/11762), [YouTube](https://www.youtube.com/watch?v=v1yyjdxV0fI), [artículo de cultura oceánica](https://oceanliteracy.unesco.org/nuevo-metodo-para-estudios-de-biodiversidad-marina-amigos-y-goce/) y [serie de televisión](http://www.tectv.gob.ar/programacion-series/proyecto-sub).
 
 ## Becas, premios y subsidios
 

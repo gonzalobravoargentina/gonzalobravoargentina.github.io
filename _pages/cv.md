@@ -62,7 +62,7 @@ Skills
   * Spanish (native)
   * English (First Certificate, University of Cambridge)
   * French (TFI 745)
-* Outreach: [Underwater 360](https://www.youtube.com/watch?v=rYw6tR0xiWg&list=PLOabOqBdimw4UEZKR3wig6O9Lh0uL6u7h&ab_channel=GonzaloBravo) · [Invertebrates Educational Posters](https://www.proyectosub.org.ar/afiches/) · [iNaturalist photo collection](https://www.inaturalist.org/observations?place_id=any&user_id=gonzalobravo&verifiable=any) · [iNaturalist guide](https://www.inaturalist.org/guides/11762) · [YouTube](https://www.youtube.com/watch?v=v1yyjdxV0fI&ab_channel=GonzaloBravo) · [Ocean Literacy Portal article](https://oceanliteracy.unesco.org/nuevo-metodo-para-estudios-de-biodiversidad-marina-amigos-y-goce/) · [TV series](http://www.tectv.gob.ar/programacion-series/proyecto-sub)
+* Outreach: [Underwater 360](https://www.youtube.com/watch?v=rYw6tR0xiWg&list=PLOabOqBdimw4UEZKR3wig6O9Lh0uL6u7h&ab_channel=GonzaloBravo) · [Invertebrates Educational Posters](https://www.proyectosub.org.ar/es/descargas/afiches) · [iNaturalist photo collection](https://www.inaturalist.org/observations?place_id=any&user_id=gonzalobravo&verifiable=any) · [iNaturalist guide](https://www.inaturalist.org/guides/11762) · [YouTube](https://www.youtube.com/watch?v=v1yyjdxV0fI&ab_channel=GonzaloBravo) · [Ocean Literacy Portal article](https://oceanliteracy.unesco.org/nuevo-metodo-para-estudios-de-biodiversidad-marina-amigos-y-goce/) · [TV series](http://www.tectv.gob.ar/programacion-series/proyecto-sub)
 
 Scholarships, Awards & Grants
 ======
