@@ -1,5 +1,5 @@
 ---
-title: "Arrecifes rocosos de la Patagonia"
+title: "La biodiversidad de los arrecifes rocosos de la Patagonia combinando imágenes submarinas e inteligencia artificial"
 collection: talks
 category: outreach
 type: "Outreach Talk"
