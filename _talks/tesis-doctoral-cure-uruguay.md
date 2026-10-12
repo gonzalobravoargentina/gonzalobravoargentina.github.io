@@ -1,5 +1,5 @@
 ---
-title: "Tesis doctoral Gonzalo Bravo en CURE, Uruguay"
+title: "Oral Presentation | Biodiversidad bentónica de arrecifes rocosos de la costa patagónica Argentina"
 collection: talks
 category: science
 type: "Oral Presentation"
