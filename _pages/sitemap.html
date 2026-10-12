@@ -1,0 +1,48 @@
+---
+layout: archive
+title: "Mapa del sitio / Sitemap"
+permalink: /sitemap/
+author_profile: true
+---
+<p>Explorá las secciones y contenidos de mi web. / Explore the sections and content of my website.</p>
+<h2>Secciones principales / Main sections</h2>
+<div class="sitemap-sections">
+{% assign languages = 'es,en' | split: ',' %}
+{% for language in languages %}
+{% assign prefix = '' %}{% if language == 'es' %}{% assign prefix = '/es' %}{% endif %}
+<section lang="{{ language }}">
+<h3>{% if language == 'es' %}Español{% else %}English{% endif %}</h3>
+<ul>
+<li><a href="{{ prefix | append: '/' | relative_url }}">{% if language == 'es' %}Sobre mí{% else %}About me{% endif %}</a></li>
+<li><a href="{{ prefix | append: '/publications/' | relative_url }}">{% if language == 'es' %}Publicaciones: artículos, libros y tesis{% else %}Publications: papers, books, and theses{% endif %}</a></li>
+<li><a href="{{ prefix | append: '/talks/' | relative_url }}">{% if language == 'es' %}Charlas científicas y de comunicación de la ciencia{% else %}Scientific and outreach talks{% endif %}</a></li>
+<li><a href="{{ prefix | append: '/portfolio/' | relative_url }}">{% if language == 'es' %}Proyectos de comunicación de la ciencia{% else %}Outreach projects{% endif %}</a></li>
+<li><a href="{{ prefix | append: '/cv/' | relative_url }}">{% if language == 'es' %}Currículum{% else %}Curriculum vitae{% endif %}</a></li>
+<li><a href="{{ prefix | append: '/images-repository/' | relative_url }}">{% if language == 'es' %}Imágenes submarinas{% else %}Underwater images{% endif %}</a></li>
+</ul>
+</section>
+{% endfor %}
+</div>
+<h2>Proyectos / Projects</h2>
+<ul>
+{% for project in site.data.projects %}
+<li><strong>{{ project.title | escape }}</strong> — <a href="{{ '/es/portfolio/' | append: project.id | append: '/' | relative_url }}" lang="es">Español</a> · <a href="{{ '/portfolio/' | append: project.id | append: '/' | relative_url }}" lang="en">English</a></li>
+{% endfor %}
+</ul>
+<h2>Publicaciones / Publications</h2>
+{% for category in site.publication_category %}
+{% assign entries = site.publications | where: 'category', category[0] | sort: 'date' | reverse %}
+{% if entries.size > 0 %}
+<h3>{{ category[1].title }}</h3>
+<ul>{% for entry in entries %}<li>{{ entry.date | date: '%Y' }} — <a href="{{ entry.url | relative_url }}">{{ entry.title | escape }}</a></li>{% endfor %}</ul>
+{% endif %}
+{% endfor %}
+<h3>Tesis / Theses</h3>
+<ul>{% for thesis in site.data.theses %}<li>{{ thesis.year }} — <a href="{{ thesis.file | relative_url }}">{{ thesis.title | escape }} (PDF)</a></li>{% endfor %}</ul>
+<h2>Charlas / Talks</h2>
+<ul>
+{% assign talks = site.talks | sort: 'date' | reverse %}
+{% for talk in talks %}<li>{{ talk.date | date: '%Y' }} — <a href="{{ talk.url | relative_url }}">{{ talk.title | escape }}</a></li>{% endfor %}
+</ul>
+<hr>
+<p><small>Para buscadores / For search engines: <a href="{{ '/sitemap.xml' | relative_url }}">XML sitemap</a>.</small></p>

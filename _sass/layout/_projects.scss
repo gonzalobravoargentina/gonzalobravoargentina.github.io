@@ -4,6 +4,8 @@
   gap: 28px;
   margin: 28px 0;
 }
+.sitemap-sections { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 28px; h3 { margin-top: 0; } }
+@media (max-width: 640px) { .sitemap-sections { grid-template-columns: minmax(0, 1fr); } }
 .project-card {
   display: flex;
   flex-direction: column;
