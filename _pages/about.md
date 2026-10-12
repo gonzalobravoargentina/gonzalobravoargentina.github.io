@@ -22,6 +22,7 @@ Research interests
 
 News
 ======
+- **2026** — New paper in *Diversity*: [Rhodolith/Maërl Bed Coexisting with a *Macrocystis pyrifera* Kelp Forest in the Beagle Channel (Onashaga, Argentina)](https://doi.org/10.3390/d18070402), documenting the coexistence of a rhodolith/maërl bed and a kelp forest.
 - **2026** — Presenting at the 3rd Meeting of Macroalgae Mappers, Chile.
 - **2025** — Speaker and organizing committee member at the XII National Marine Science Conference - XX Oceanography Colloquium, Puerto Madryn, Argentina.
 - **2025** — Attended the São Paulo School of Advanced Science in Ocean Literacy, Santos, Brazil.
