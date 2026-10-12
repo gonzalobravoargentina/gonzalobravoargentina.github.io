@@ -7,6 +7,6 @@ permalink: /talks/tesis-doctoral-cure-uruguay
 venue: "Grupo MEDIA, CURE, Uruguay"
 video_language: es
 link: "https://www.youtube.com/watch?v=hm-s8YB-nwY"
-excerpt: "Doctoral thesis presentation for the MEDIA group at CURE, Uruguay. Recording published on October 12, 2026."
+excerpt: "Doctoral thesis presentation for the MEDIA group at CURE, Uruguay."
 ---
 Presentación oral de la tesis doctoral para el grupo MEDIA del CURE, Uruguay, según la descripción del video.

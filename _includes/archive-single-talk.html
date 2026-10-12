@@ -49,9 +49,6 @@
     {% if post.read_time %}
       <p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
     {% endif %}
-    {% if post.date %}<p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {% if page.lang == 'es' %}{{ post.date | date: '%d/%m/%Y' }}{% if post.date_end %} – {{ post.date_end | date: '%d/%m/%Y' }}{% endif %}{% else %}{{ post.date | date: '%B %d, %Y' }}{% if post.date_end %} – {{ post.date_end | date: '%B %d, %Y' }}{% endif %}{% endif %}</p>{% endif %}
-    {% if post.venue %}<p class="archive__item-excerpt">{% if page.lang == 'es' %}{% if post.category == 'science' %}Charla científica{% else %}Charla de comunicación de la ciencia{% endif %}{% else %}{{ post.type }}{% endif %}, {{ post.venue }}{% if post.location %}, {{ post.location }}{% endif %}</p>{% endif %}
-    <p>{% if page.lang == 'es' %}Idioma: {% if post.video_language == 'en' %}inglés{% else %}español{% endif %}{% else %}Language: {% if post.video_language == 'en' %}English{% else %}Spanish{% endif %}{% endif %}</p>
-    {% if page.lang != 'es' and post.excerpt %}<div class="archive__item-excerpt">{{ post.excerpt | markdownify }}</div>{% endif %}
+    {% include talk-metadata.html talk=post %}
   </article>
 </div>

@@ -1,0 +1,7 @@
+{% assign talk = include.talk %}
+<div class="talk-metadata">
+  <p>{% if page.lang == 'es' %}{% if talk.category == 'science' %}Charla científica{% else %}Comunicación de la ciencia{% endif %}{% else %}{% if talk.category == 'science' %}Scientific talk{% else %}Outreach{% endif %}{% endif %}</p>
+  {% if talk.venue %}<p>{{ talk.venue | escape }}{% if talk.location and talk.location != 'Virtual' and talk.location != 'Online' and talk.location != 'Virtual Conference' %} · {{ talk.location | escape }}{% endif %}</p>{% endif %}
+  {% if talk.date %}<p>{% if page.lang == 'es' %}Fecha del evento: {{ talk.date | date: '%d/%m/%Y' }}{% if talk.date_end %} – {{ talk.date_end | date: '%d/%m/%Y' }}{% endif %}{% else %}Event date: {{ talk.date | date: '%B %d, %Y' }}{% if talk.date_end %} – {{ talk.date_end | date: '%B %d, %Y' }}{% endif %}{% endif %}</p>{% endif %}
+  <p>{% if page.lang == 'es' %}Idioma: {% if talk.video_language == 'en' %}inglés{% else %}español{% endif %}{% else %}Language: {% if talk.video_language == 'en' %}English{% else %}Spanish{% endif %}{% endif %}</p>
+</div>
