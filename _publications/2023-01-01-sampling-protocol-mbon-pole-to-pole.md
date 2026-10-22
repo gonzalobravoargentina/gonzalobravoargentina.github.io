@@ -2,6 +2,7 @@
 title: "Sampling protocol for monitoring marine biodiversity on rocky shores"
 collection: publications
 category: manuscripts
+cover: /images/publications/protocolo-mbon.png
 permalink: /publication/2023-01-01-sampling-protocol-mbon-pole-to-pole
 excerpt: 'A sampling protocol for monitoring marine biodiversity on rocky shores, developed for the Marine Biodiversity Observation Network Pole to Pole of the Americas.'
 date: 2023-01-01
