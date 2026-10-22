@@ -2,8 +2,11 @@
   <a href="#manuscripts">{% if page.lang == 'es' %}Artículos científicos{% else %}Journal articles{% endif %}</a>
   <a href="#books">{% if page.lang == 'es' %}Libros y capítulos{% else %}Books & chapters{% endif %}</a>
   <a href="#theses">{% if page.lang == 'es' %}Tesis{% else %}Theses{% endif %}</a>
+  <a href="#protocols">{% if page.lang == 'es' %}Protocolos{% else %}Protocols{% endif %}</a>
+  <a href="#datasets">{% if page.lang == 'es' %}Datos publicados{% else %}Published datasets{% endif %}</a>
 </nav>
 {% for category in site.publication_category %}
+  {% if category[0] == 'protocols' %}{% continue %}{% endif %}
   {% assign entries = site.publications | where: 'category', category[0] | sort: 'date' | reverse %}
   {% if entries.size > 0 %}
   <section aria-labelledby="{{ category[0] }}">
@@ -13,3 +16,11 @@
   {% endif %}
 {% endfor %}
 {% include theses.html %}
+{% assign protocols = site.publications | where: 'category', 'protocols' | sort: 'date' | reverse %}
+{% if protocols.size > 0 %}
+<section aria-labelledby="protocols">
+  <h2 id="protocols">{% if page.lang == 'es' %}Protocolos{% else %}Protocols{% endif %}</h2>
+  {% include publication-cards.html entries=protocols %}
+</section>
+{% endif %}
+{% include datasets.html %}

@@ -16,7 +16,7 @@
       <h3><a href="{{ article_url }}">{{ post.title | escape }}</a></h3>
       {% if post.citation %}<p class="publication-card__authors">{{ post.citation | split: '(' | first | strip_html }}</p>{% endif %}
       <div class="publication-card__actions">
-        <a href="{{ article_url }}">{% if post.category == 'books' %}{% if page.lang == 'es' %}Capítulo{% else %}Chapter{% endif %}{% else %}{% if page.lang == 'es' %}Artículo{% else %}Article{% endif %}{% endif %} ↗</a>
+        <a href="{{ article_url }}">{% case post.category %}{% when 'protocols' %}{% if page.lang == 'es' %}Protocolo{% else %}Protocol{% endif %}{% when 'books' %}{% if page.lang == 'es' %}Capítulo{% else %}Chapter{% endif %}{% else %}{% if page.lang == 'es' %}Artículo{% else %}Article{% endif %}{% endcase %} ↗</a>
         {% if post.pdfurl %}<a href="{{ post.pdfurl }}">PDF ↗</a>{% endif %}
         <a href="{{ post.url | relative_url }}">{% if page.lang == 'es' %}Referencia{% else %}Reference{% endif %}</a>
       </div>

@@ -1,0 +1,22 @@
+<section aria-labelledby="datasets">
+  <h2 id="datasets">{% if page.lang == 'es' %}Datos publicados{% else %}Published datasets{% endif %}</h2>
+  <p>{% if page.lang == 'es' %}Conjuntos de datos de biodiversidad marina en los que participo como coautor. Cada ficha enlaza al registro en OBIS y, cuando está verificado, a su equivalente en GBIF.{% else %}Marine biodiversity datasets I have co-authored. Each entry links to its OBIS record and, where verified, its GBIF counterpart.{% endif %}</p>
+  <p><a href="https://obis.org/search/?entity=dataset&amp;q=gonzalo+bravo">{% if page.lang == 'es' %}Ver resultados en OBIS{% else %}Browse OBIS results{% endif %} ↗</a></p>
+  <div class="publications-grid dataset-grid">
+  {% for dataset in site.data.datasets %}
+    <article class="publication-card">
+      <div class="publication-card__body">
+        <p class="publication-card__journal">{% if page.lang == 'es' %}Conjunto de datos{% else %}Dataset{% endif %} · {{ dataset.year }}</p>
+        <h3><a href="{{ dataset.obis }}">{{ dataset.title | escape }}</a></h3>
+        <p class="publication-card__authors">{{ dataset.authors | escape }}</p>
+        <div class="publication-card__actions">
+          <a href="{{ dataset.obis }}">OBIS ↗</a>
+          {% if dataset.gbif %}<a href="{{ dataset.gbif }}">GBIF ↗</a>{% endif %}
+          {% if dataset.doi %}<a href="https://doi.org/{{ dataset.doi }}">DOI ↗</a>{% endif %}
+          <a href="{{ dataset.source }}">{% if page.lang == 'es' %}Registro original{% else %}Source record{% endif %} ↗</a>
+        </div>
+      </div>
+    </article>
+  {% endfor %}
+  </div>
+</section>

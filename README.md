@@ -28,6 +28,7 @@ El sitio reúne mi trayectoria, publicaciones, charlas con video y proyectos sob
 | Presentación y novedades | `_pages/about.md` |
 | Currículum | `_pages/cv.md` |
 | Publicaciones | `_publications/` |
+| Datos publicados en OBIS y GBIF | `_data/datasets.json` |
 | Portadas de publicaciones | `images/publications/` |
 | Charlas con video | `_talks/` |
 | Textos, portadas y recursos de proyectos (español e inglés) | `_data/projects.yml` |
