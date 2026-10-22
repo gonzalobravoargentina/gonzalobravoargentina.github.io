@@ -37,7 +37,7 @@ El sitio reúne mi trayectoria, publicaciones, charlas con video y proyectos sob
 | PDF y audio de proyectos | `files/projects/` |
 | Menú | `_data/navigation.yml` |
 | Perfil y configuración | `_config.yml` |
-| Foto | `images/profile.png` |
+| Foto | `images/profile-diving.jpg` (configurada en `_config.yml`) |
 | PDFs descargables | `files/` |
 
 Para agregar una publicación o charla, copiá un archivo de la carpeta correspondiente con un nombre nuevo y actualizá sus datos y texto. En las charlas, usá `category: science` o `category: outreach` y agregá la grabación en `link`.
