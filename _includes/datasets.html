@@ -1,19 +1,22 @@
 <section aria-labelledby="datasets">
   <h2 id="datasets">{% if page.lang == 'es' %}Datos publicados{% else %}Published datasets{% endif %}</h2>
-  <p>{% if page.lang == 'es' %}Conjuntos de datos de biodiversidad marina en los que participo como coautor. Cada ficha enlaza al registro en OBIS y, cuando está verificado, a su equivalente en GBIF.{% else %}Marine biodiversity datasets I have co-authored. Each entry links to its OBIS record and, where verified, its GBIF counterpart.{% endif %}</p>
+  <p>{% if page.lang == 'es' %}Datos, videos y código de análisis de biodiversidad marina en los que participo como coautor, disponibles en OBIS, GBIF y Zenodo. Cada ficha enlaza a los repositorios verificados.{% else %}Marine biodiversity data, videos, and analysis code I have co-authored, available through OBIS, GBIF, and Zenodo. Each entry links to verified repository records.{% endif %}</p>
   <p><a href="https://obis.org/search/?entity=dataset&amp;q=gonzalo+bravo">{% if page.lang == 'es' %}Ver resultados en OBIS{% else %}Browse OBIS results{% endif %} ↗</a></p>
   <div class="publications-grid dataset-grid">
   {% for dataset in site.data.datasets %}
+    {% assign record_url = dataset.zenodo | default: dataset.obis %}
     <article class="publication-card">
       <div class="publication-card__body">
-        <p class="publication-card__journal">{% if page.lang == 'es' %}Conjunto de datos{% else %}Dataset{% endif %} · {{ dataset.year }}</p>
-        <h3><a href="{{ dataset.obis }}">{{ dataset.title | escape }}</a></h3>
+        <p class="publication-card__journal">{% if page.lang == 'es' %}{{ dataset.kind_es | default: 'Conjunto de datos' }}{% else %}{{ dataset.kind_en | default: 'Dataset' }}{% endif %} · {{ dataset.year }}</p>
+        <h3><a href="{{ record_url }}">{{ dataset.title | escape }}</a></h3>
         <p class="publication-card__authors">{{ dataset.authors | escape }}</p>
+        {% if dataset.summary_es %}<p class="publication-card__authors">{% if page.lang == 'es' %}{{ dataset.summary_es }}{% else %}{{ dataset.summary_en }}{% endif %}</p>{% endif %}
         <div class="publication-card__actions">
-          <a href="{{ dataset.obis }}">OBIS ↗</a>
+          {% if dataset.obis %}<a href="{{ dataset.obis }}">OBIS ↗</a>{% endif %}
+          {% if dataset.zenodo %}<a href="{{ dataset.zenodo }}">Zenodo ↗</a>{% endif %}
           {% if dataset.gbif %}<a href="{{ dataset.gbif }}">GBIF ↗</a>{% endif %}
           {% if dataset.doi %}<a href="https://doi.org/{{ dataset.doi }}">DOI ↗</a>{% endif %}
-          <a href="{{ dataset.source }}">{% if page.lang == 'es' %}Registro original{% else %}Source record{% endif %} ↗</a>
+          {% if dataset.source %}<a href="{{ dataset.source }}">{% if page.lang == 'es' %}Registro original{% else %}Source record{% endif %} ↗</a>{% endif %}
         </div>
       </div>
     </article>

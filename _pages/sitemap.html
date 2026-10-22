@@ -40,7 +40,7 @@ author_profile: true
 <h3>Tesis / Theses</h3>
 <ul>{% for thesis in site.data.theses %}<li>{{ thesis.year }} — <a href="{{ thesis.file | relative_url }}">{{ thesis.title | escape }} (PDF)</a></li>{% endfor %}</ul>
 <h3>Datos publicados / Published datasets</h3>
-<ul>{% for dataset in site.data.datasets %}<li><a href="{{ dataset.obis }}">{{ dataset.title | escape }}</a>{% if dataset.gbif %} · <a href="{{ dataset.gbif }}">GBIF</a>{% endif %}</li>{% endfor %}</ul>
+<ul>{% for dataset in site.data.datasets %}<li><a href="{{ dataset.zenodo | default: dataset.obis }}">{{ dataset.title | escape }}</a>{% if dataset.gbif %} · <a href="{{ dataset.gbif }}">GBIF</a>{% endif %}</li>{% endfor %}</ul>
 <h2>Charlas / Talks</h2>
 <ul>
 {% assign talks = site.talks | sort: 'date' | reverse %}

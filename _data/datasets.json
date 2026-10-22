@@ -1,5 +1,27 @@
 [
   {
+    "title": "Rocky intertidal photoquadrat monitoring of Argentine coastal protected areas (MBON Pole to Pole), 2023–2026",
+    "year": 2026,
+    "authors": "Bravo, Gonzalo; Bigatti, Gregorio; Montes, Enrique",
+    "zenodo": "https://zenodo.org/records/23062389",
+    "doi": "10.5281/zenodo.23062389",
+    "kind_es": "Datos y código de análisis",
+    "kind_en": "Data and analysis code",
+    "summary_es": "Metadatos de fotocuadrantes, anotaciones, coberturas y código R para el índice de estado intermareal RISI. Las fotografías se consultan en CoralNet, no están incluidas en el depósito de Zenodo.",
+    "summary_en": "Photoquadrat metadata, annotations, cover data, and R code for the Rocky Intertidal Status Index (RISI). Photographs are accessible through CoralNet, not included in the Zenodo deposit."
+  },
+  {
+    "title": "Arredondo Bay Benthic Survey with Towed Video-Diver (TVD)",
+    "year": 2024,
+    "authors": "Bravo, Gonzalo; Trobbiani, Gastón Andres",
+    "zenodo": "https://zenodo.org/records/14231232",
+    "doi": "10.5281/zenodo.14231232",
+    "kind_es": "Videos, datos y código de análisis",
+    "kind_en": "Videos, data, and analysis code",
+    "summary_es": "Videos submarinos de transectas en bahía Arredondo, anotaciones exportadas de BIIGLE y código R para reproducir el análisis del relevamiento con Towed Video-Diver.",
+    "summary_en": "Underwater transect videos from Arredondo Bay, annotations exported from BIIGLE, and R code to reproduce the Towed Video-Diver survey analysis."
+  },
+  {
     "title": "MBON POLE TO POLE: ROCKY SHORE BIODIVERSITY OF PUERTO MADRYN - 2023",
     "year": 2024,
     "authors": "Bigatti G, Mendez M M, Livore J P, Bravo G",
