@@ -2,6 +2,7 @@
 title: "Towed Video-Diver: A Useful Low-Cost Tool for Rapid Benthic Mapping and Biodiversity Monitoring"
 collection: publications
 category: manuscripts
+cover: /images/publications/2025-01-02-towed-video-diver.jpg
 permalink: /publication/2025-towed-video-diver
 excerpt: 'A low-cost towed video-diver method for rapid benthic mapping and biodiversity monitoring.'
 date: 2025-01-01

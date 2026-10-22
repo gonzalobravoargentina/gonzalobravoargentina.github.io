@@ -2,6 +2,7 @@
 title: "Rhodolith/Maërl Bed Coexisting with a Macrocystis pyrifera Kelp Forest in the Beagle Channel (Onashaga, Argentina)"
 collection: publications
 category: manuscripts
+cover: /images/publications/2026-01-01-rhodolith-maerl-bed-beagle-channel.jpg
 permalink: /publication/2026-01-01-rhodolith-maerl-bed-beagle-channel
 excerpt: 'Documents a rhodolith/maërl bed coexisting with a *Macrocystis pyrifera* kelp forest in the Beagle Channel, Argentina.'
 date: 2026-01-01

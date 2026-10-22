@@ -2,6 +2,7 @@
 title: "Effectiveness of a marine education program applied in a marine protected area context and designed with science education strategies"
 collection: publications
 category: books
+cover: /images/publications/2025-01-01-effectiveness-marine-education-program.jpg
 permalink: /publication/2025-01-01-effectiveness-marine-education-program
 excerpt: 'Book chapter evaluating a marine education program applied in a marine protected area context, in Ocean Literacy: The Foundation for the Success of the Ocean Decade, Volume II.'
 date: 2026-01-01

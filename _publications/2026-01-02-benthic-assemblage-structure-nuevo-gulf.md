@@ -2,6 +2,7 @@
 title: "Benthic Assemblage Structure under Contrasting Current Regimes and Depth Strata in Nuevo Gulf, Patagonia, Argentina"
 collection: publications
 category: manuscripts
+cover: /images/publications/2026-01-02-benthic-assemblage-structure-nuevo-gulf.jpg
 permalink: /publication/2026-01-02-benthic-assemblage-structure-nuevo-gulf
 excerpt: 'Examines benthic assemblage structure under contrasting current regimes and depth strata in Nuevo Gulf, Patagonia, Argentina.'
 date: 2026-01-02

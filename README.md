@@ -28,6 +28,7 @@ El sitio reúne mi trayectoria, publicaciones, charlas con video y proyectos sob
 | Presentación y novedades | `_pages/about.md` |
 | Currículum | `_pages/cv.md` |
 | Publicaciones | `_publications/` |
+| Portadas de publicaciones | `images/publications/` |
 | Charlas con video | `_talks/` |
 | Textos, portadas y recursos de proyectos (español e inglés) | `_data/projects.yml` |
 | Páginas de proyectos | `_portfolio/` y `_pages/es-project-*.html` |
@@ -43,6 +44,8 @@ Para agregar una publicación o charla, copiá un archivo de la carpeta correspo
 Los proyectos de Comunicación de la ciencia se editan en `_data/projects.yml`: cada entrada tiene título, portada, textos `es` y `en`, enlaces y descargas. Para sumar un proyecto, agregá también su página en `_portfolio/` y su equivalente en `_pages/`, con `layout: project` y el mismo `project_id`. Los PDF y el audio se conservan en `files/projects/`; no agregues archivos de más de 100 MB.
 
 No edites `_site/`: contiene archivos generados automáticamente.
+
+Las publicaciones se muestran como tarjetas en tres columnas. Para agregar una portada, guardá su imagen en `images/publications/` y agregá `cover: /images/publications/nombre.jpg` en los datos de la publicación. Si no hay portada, aparece una tarjeta provisoria; no hace falta cambiar el diseño. Los títulos, revista, año y referencia se toman del mismo archivo de `_publications/`.
 
 ## Vista previa local
 

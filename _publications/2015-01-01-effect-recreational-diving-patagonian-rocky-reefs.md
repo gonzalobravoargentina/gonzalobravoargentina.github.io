@@ -2,6 +2,7 @@
 title: "Effect of recreational diving on Patagonian rocky reefs"
 collection: publications
 category: manuscripts
+cover: /images/publications/2015-01-01-effect-recreational-diving-patagonian-rocky-reefs.jpg
 permalink: /publication/2015-01-01-effect-recreational-diving-patagonian-rocky-reefs
 excerpt: 'Examines the effect of recreational diving on Patagonian rocky reefs.'
 date: 2015-01-01

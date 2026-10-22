@@ -2,6 +2,7 @@
 title: "Diving into Kelp and Animal Forests in Isla de los Estados"
 collection: publications
 category: books
+cover: /images/publications/2026-01-03-diving-into-kelp-isla-de-los-estados.jpg
 permalink: /publication/2026-01-03-diving-into-kelp-isla-de-los-estados
 excerpt: 'Book chapter on kelp and animal forests of Isla de los Estados, in Biodiversity and Conservation of Isla de los Estados (Chuani-sin).'
 date: 2026-01-03

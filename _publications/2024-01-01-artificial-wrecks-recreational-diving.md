@@ -2,6 +2,7 @@
 title: "Artificial wrecks: unwanted consequences of the deliberate sinking of ships for recreational diving"
 collection: publications
 category: manuscripts
+cover: /images/publications/2024-01-01-artificial-wrecks-recreational-diving.jpg
 permalink: /publication/2024-01-01-artificial-wrecks-recreational-diving
 excerpt: 'Investigates the unintended ecological consequences of deliberately sinking ships to create artificial reefs for recreational diving.'
 date: 2025-04-01

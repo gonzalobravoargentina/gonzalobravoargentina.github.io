@@ -2,6 +2,7 @@
 title: "First In Situ Observation of Sperm Release in Corynactis carnea (Anthozoa: Corallimorpharia) from Patagonia, Argentina"
 collection: publications
 category: manuscripts
+cover: /images/publications/2023-01-03-sperm-release-corynactis-carnea.jpg
 permalink: /publication/2023-01-03-sperm-release-corynactis-carnea
 excerpt: 'Reports the first in situ observation of sperm release in Corynactis carnea (Anthozoa: Corallimorpharia) from Patagonia, Argentina.'
 date: 2023-01-03

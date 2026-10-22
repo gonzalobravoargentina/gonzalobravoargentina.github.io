@@ -1,0 +1,33 @@
+.publication-sections {
+  display: flex; flex-wrap: wrap; gap: 14px 24px; margin: 28px 0; padding-bottom: 14px;
+  border-bottom: 1px solid var(--global-border-color);
+  a { font-size: 0.8em; text-decoration: none; }
+}
+.publications-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 22px; margin: 20px 0 40px; }
+.publication-card {
+  min-width: 0; display: flex; flex-direction: column; border: 1px solid var(--global-border-color);
+  border-radius: 13px; overflow: hidden; background: var(--global-bg-color); box-shadow: 0 3px 14px rgba(23,54,64,.04);
+  a { text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  a:focus-visible { outline: 3px solid var(--global-link-color); outline-offset: -3px; }
+}
+.publication-card__cover {
+  position: relative; height: 265px; padding: 16px; display: flex; justify-content: center; background: #eef2f3;
+  border-bottom: 1px solid var(--global-border-color);
+  img { display: block; width: 100%; height: 100%; object-fit: contain; filter: drop-shadow(0 2px 4px rgba(0,0,0,.12)); }
+}
+.publication-card__year { position: absolute; right: 12px; bottom: 12px; background: #fff; color: #366879; border: 1px solid #dae6eb; border-radius: 6px; padding: 3px 9px; font-size: 12px; font-weight: 700; }
+.publication-card__placeholder {
+  display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 12px; text-align: center; color: #366879; padding: 10px;
+  > span { font-size: 32px; } strong { font-size: 14px; line-height: 1.4; } small { font-size: 11px; }
+}
+.publication-card__body { display: flex; flex-direction: column; flex: 1; padding: 18px; min-width: 0;
+  h3 { font-size: 16px; line-height: 1.4; margin: 0 0 13px; font-weight: 600; overflow-wrap: anywhere; }
+}
+.publication-card__journal { font-size: 12px; line-height: 1.4; margin: 0 0 9px; color: var(--global-text-color); opacity: .8; }
+.publication-card__authors { font-size: 12px; line-height: 1.5; margin: 0 0 19px; }
+.publication-card__actions { display: flex; flex-wrap: wrap; gap: 8px; margin-top: auto; padding-top: 13px; border-top: 1px solid var(--global-border-color);
+  a { font-size: 12px; border: 1px solid var(--global-border-color); border-radius: 6px; padding: 5px 10px; }
+}
+@media (max-width: 1100px) { .publications-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 640px) { .publications-grid { grid-template-columns: minmax(0, 1fr); } .publication-card__cover { height: 300px; } }

@@ -2,6 +2,7 @@
 title: "Robots Versus Humans: Automated Annotation Accurately Quantifies Essential Ocean Variables of Rocky Intertidal Functional Groups and Habitat"
 collection: publications
 category: manuscripts
+cover: /images/publications/2021-01-01-robots-versus-humans-eov.jpg
 permalink: /publication/2021-01-01-robots-versus-humans-eov
 excerpt: 'Compares automated versus human annotation for quantifying Essential Ocean Variables of rocky intertidal functional groups and habitat.'
 date: 2021-01-01

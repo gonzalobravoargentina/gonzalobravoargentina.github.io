@@ -1,0 +1,15 @@
+<nav class="publication-sections" aria-label="{% if page.lang == 'es' %}Secciones de publicaciones{% else %}Publication sections{% endif %}">
+  <a href="#manuscripts">{% if page.lang == 'es' %}Artículos científicos{% else %}Journal articles{% endif %}</a>
+  <a href="#books">{% if page.lang == 'es' %}Libros y capítulos{% else %}Books & chapters{% endif %}</a>
+  <a href="#theses">{% if page.lang == 'es' %}Tesis{% else %}Theses{% endif %}</a>
+</nav>
+{% for category in site.publication_category %}
+  {% assign entries = site.publications | where: 'category', category[0] | sort: 'date' | reverse %}
+  {% if entries.size > 0 %}
+  <section aria-labelledby="{{ category[0] }}">
+    <h2 id="{{ category[0] }}">{% if page.lang == 'es' %}{% case category[0] %}{% when 'manuscripts' %}Artículos científicos{% when 'books' %}Libros y capítulos{% when 'conferences' %}Trabajos en congresos{% else %}{{ category[1].title }}{% endcase %}{% else %}{% if category[0] == 'books' %}Books & chapters{% else %}{{ category[1].title }}{% endif %}{% endif %}</h2>
+    {% include publication-cards.html entries=entries %}
+  </section>
+  {% endif %}
+{% endfor %}
+{% include theses.html %}

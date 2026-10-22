@@ -2,6 +2,7 @@
 title: "Roving Diver Survey as a Rapid and Cost-Effective Methodology to Register Species Richness in Sub-Antarctic Kelp Forests"
 collection: publications
 category: manuscripts
+cover: /images/publications/2023-01-02-roving-diver-survey-sub-antarctic-kelp-forests.jpg
 permalink: /publication/2023-01-02-roving-diver-survey-sub-antarctic-kelp-forests
 excerpt: 'Proposes the Roving Diver Survey as a rapid and cost-effective methodology to register species richness in sub-Antarctic kelp forests.'
 date: 2023-01-02

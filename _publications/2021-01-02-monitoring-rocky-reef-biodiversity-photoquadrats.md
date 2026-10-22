@@ -2,6 +2,7 @@
 title: "Monitoring rocky reef biodiversity by underwater geo-referenced photoquadrats"
 collection: publications
 category: manuscripts
+cover: /images/publications/2021-01-02-monitoring-rocky-reef-biodiversity-photoquadrats.jpg
 permalink: /publication/2021-01-02-monitoring-rocky-reef-biodiversity-photoquadrats
 excerpt: 'Describes a method for monitoring rocky reef biodiversity using underwater geo-referenced photoquadrats.'
 date: 2021-01-02

@@ -1,0 +1,26 @@
+<div class="publications-grid">
+{% for post in include.entries %}
+  {% assign article_url = post.paperurl | default: post.url %}
+  {% unless article_url contains '://' %}{% assign article_url = article_url | relative_url %}{% endunless %}
+  <article class="publication-card">
+    <a class="publication-card__cover" href="{{ article_url }}" aria-label="{{ post.title | escape }}">
+      {% if post.cover %}
+      <img src="{{ post.cover | relative_url }}" alt="{% if page.lang == 'es' %}Primera página de{% else %}First page of{% endif %} {{ post.title | escape }}" loading="lazy" decoding="async" width="707" height="1000">
+      {% else %}
+      <span class="publication-card__placeholder"><span aria-hidden="true">▤</span><strong>{{ post.title | escape }}</strong><small>{% if page.lang == 'es' %}Portada pendiente{% else %}Cover pending{% endif %}</small></span>
+      {% endif %}
+      <span class="publication-card__year">{{ post.date | date: '%Y' }}</span>
+    </a>
+    <div class="publication-card__body">
+      <p class="publication-card__journal">{{ post.venue | escape }}</p>
+      <h3><a href="{{ article_url }}">{{ post.title | escape }}</a></h3>
+      {% if post.citation %}<p class="publication-card__authors">{{ post.citation | split: '(' | first | strip_html }}</p>{% endif %}
+      <div class="publication-card__actions">
+        <a href="{{ article_url }}">{% if post.category == 'books' %}{% if page.lang == 'es' %}Capítulo{% else %}Chapter{% endif %}{% else %}{% if page.lang == 'es' %}Artículo{% else %}Article{% endif %}{% endif %} ↗</a>
+        {% if post.pdfurl %}<a href="{{ post.pdfurl }}">PDF ↗</a>{% endif %}
+        <a href="{{ post.url | relative_url }}">{% if page.lang == 'es' %}Referencia{% else %}Reference{% endif %}</a>
+      </div>
+    </div>
+  </article>
+{% endfor %}
+</div>

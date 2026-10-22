@@ -2,6 +2,7 @@
 title: "Rocky Reef Biodiversity Survey: Punta Pardelas, Argentina"
 collection: publications
 category: manuscripts
+cover: /images/publications/2021-01-03-rocky-reef-biodiversity-survey-punta-pardelas.jpg
 permalink: /publication/2021-01-03-rocky-reef-biodiversity-survey-punta-pardelas
 excerpt: 'A rocky reef biodiversity survey conducted at Punta Pardelas, Argentina.'
 date: 2021-01-03

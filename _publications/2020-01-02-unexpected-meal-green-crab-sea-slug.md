@@ -2,6 +2,7 @@
 title: "Unexpected meal: first record of predation upon a potentially neurotoxic sea slug by the European green crab Carcinus maenas"
 collection: publications
 category: manuscripts
+cover: /images/publications/2020-01-02-unexpected-meal-green-crab-sea-slug.jpg
 permalink: /publication/2020-01-02-unexpected-meal-green-crab-sea-slug
 excerpt: 'First record of predation upon a potentially neurotoxic sea slug by the European green crab Carcinus maenas.'
 date: 2020-01-02

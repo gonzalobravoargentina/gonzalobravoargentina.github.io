@@ -2,6 +2,7 @@
 title: "Detritus from Ice and Plankton Algae as an Important Food Source for Macroinfaunal Communities in the Canadian Arctic"
 collection: publications
 category: manuscripts
+cover: /images/publications/2024-01-02-detritus-ice-plankton-algae-canadian-arctic.jpg
 permalink: /publication/2024-01-02-detritus-ice-plankton-algae-canadian-arctic
 excerpt: 'Shows that detritus from ice and plankton algae is an important food source for macroinfaunal communities in the Canadian Arctic.'
 date: 2024-01-02

@@ -2,6 +2,7 @@
 title: "Implementing biodiversity monitoring of rocky shores using photo-quadrats and Artificial Intelligence in support of data-driven decision-making of marine living resources"
 collection: publications
 category: manuscripts
+cover: /images/publications/2024-01-03-implementing-biodiversity-monitoring-photo-quadrats-ai.jpg
 permalink: /publication/2024-01-03-implementing-biodiversity-monitoring-photo-quadrats-ai
 excerpt: 'Presents a workflow for implementing biodiversity monitoring of rocky shores using photo-quadrats and Artificial Intelligence for data-driven decision-making.'
 date: 2024-01-03
