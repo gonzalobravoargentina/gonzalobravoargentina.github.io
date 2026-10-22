@@ -19,6 +19,7 @@ Soy doctor en Ciencias Biológicas por la Universidad Nacional de la Patagonia S
 
 ## Novedades
 
+- **19–23 de octubre de 2026:** Instructor del taller [Enhancing Marine Biodiversity Data Collection and Publication](https://www.aircentre.org/en/events/workshop-enhancing-marine-biodiversity-data-collection-and-publication-2026), organizado por MBON y AIR Centre en la isla Terceira, Azores, Portugal, sobre publicación de datos de biodiversidad en OBIS y monitoreo del intermareal rocoso mediante fotocuadrantes.
 - **2026:** Nuevo artículo en *Diversity* sobre la [coexistencia de un banco de rodolitos/maërl y un bosque de *Macrocystis pyrifera* en el Canal Beagle (Onashaga, Argentina)](https://doi.org/10.3390/d18070402).
 - **2026:** Participación en el 3.er Encuentro de Mapeadores de Macroalgas, Chile.
 - **2025:** Conferencista y miembro del comité organizador de las XII Jornadas Nacionales de Ciencias del Mar – XX Coloquio de Oceanografía, Puerto Madryn.
