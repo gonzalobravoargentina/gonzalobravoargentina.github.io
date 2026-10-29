@@ -82,7 +82,13 @@
   title: "Sonidos del Mar"
   cover: /images/projects/sonidos-del-mar-horizontal.png
   fit: contain
-  audio: /files/projects/sonidos-del-mar-dia-ballena-2023.mp3
+  audios:
+    - file: /files/projects/sonidos-del-mar-punta-ballena.mp3
+      es: "Punta Ballena"
+      en: "Punta Ballena"
+    - file: /files/projects/sonidos-del-mar-dia-ballena-2023.mp3
+      es: "Día de la Ballena 2023"
+      en: "Whale Day 2023"
   es:
     summary: "Una experiencia sonora oceánica nacida en el Golfo Nuevo: escuchar las voces del mar y sus cetáceos."
     body: |
@@ -90,7 +96,7 @@
 
       Las vocalizaciones de cetáceos fueron grabadas con hidrófono por **Claudio Nicolini**, guía ballenero, buzo, fotógrafo y naturalista de Puerto Pirámides. El diseño y la mezcla sonora son de **Mariano Cukierman**, y la música original de **Juan Meisen y Joaquín Novoa**.
 
-      La experiencia compartida aquí corresponde al **Día de la Ballena 2023**. El material de 2025 presenta el origen del viaje sonoro y la historia de Garra, la ballena que la comunidad de Puerto Pirámides ayudó a liberar en 2002.
+      Aquí podés escuchar las experiencias **Punta Ballena** y **Día de la Ballena 2023**. El material de 2025 presenta el origen del viaje sonoro y la historia de Garra, la ballena que la comunidad de Puerto Pirámides ayudó a liberar en 2002.
   en:
     summary: "An ocean sound experience from Nuevo Gulf: listening to the voices of the sea and its cetaceans."
     body: |
@@ -98,7 +104,7 @@
 
       Cetacean vocalizations were recorded with a hydrophone by **Claudio Nicolini**, a whale-watching guide, diver, photographer, and naturalist from Puerto Pirámides. Sound design and mixing are by **Mariano Cukierman**, with original music by **Juan Meisen and Joaquín Novoa**.
 
-      The audio shared here is the **Whale Day 2023** experience. The 2025 document introduces the sound journey and the story of Garra, the whale that the Puerto Pirámides community helped release in 2002.
+      Listen to the **Punta Ballena** and **Whale Day 2023** sound experiences below. The 2025 document introduces the sound journey and the story of Garra, the whale that the Puerto Pirámides community helped release in 2002.
   downloads:
     - file: /files/projects/sonidos-del-mar-2025.pdf
       es: "El origen del viaje sonoro (2025)"

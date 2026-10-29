@@ -23,11 +23,14 @@ layout: single
     </div>
   </section>
   {% endif %}
-  {% if project.audio %}
+  {% if project.audios %}
   <section class="project-audio" aria-labelledby="listen">
-    <h2 id="listen">{% if language == 'es' %}Escuchar la experiencia sonora{% else %}Listen to the sound experience{% endif %}</h2>
-    <p>{% if language == 'es' %}Día de la Ballena 2023. Te recomendamos escuchar con auriculares. Audio en español.{% else %}Whale Day 2023. Headphones recommended. Audio in Spanish.{% endif %}</p>
-    <audio controls controlslist="nodownload" preload="none" aria-label="Sonidos del Mar — Día de la Ballena 2023"><source src="{{ project.audio | relative_url }}" type="audio/mpeg">{% if language == 'es' %}Tu navegador no admite este reproductor.{% else %}Your browser does not support this audio player.{% endif %}</audio>
+    <h2 id="listen">{% if language == 'es' %}Escuchar las experiencias sonoras{% else %}Listen to the sound experiences{% endif %}</h2>
+    <p>{% if language == 'es' %}Te recomendamos escuchar con auriculares.{% else %}Headphones recommended.{% endif %}</p>
+    {% for track in project.audios %}
+    <h3>{{ track[language] | escape }}</h3>
+    <audio controls controlslist="nodownload" preload="none" aria-label="{{ track[language] | escape }}"><source src="{{ track.file | relative_url }}" type="audio/mpeg">{% if language == 'es' %}Tu navegador no admite este reproductor.{% else %}Your browser does not support this audio player.{% endif %}</audio>
+    {% endfor %}
   </section>
   {% endif %}
   {% if project.downloads %}
