@@ -1,3 +1,30 @@
+- id: guia-especies-submarinas
+  title: "Guía de Especies Submarinas · Mar Argentino"
+  cover: /images/projects/guia-especies-submarinas.jpg
+  es:
+    summary: "Una guía interactiva para conocer las algas, los invertebrados y los peces de los fondos marinos de la Argentina."
+    body: |
+      Soy curador de la **Guía de Especies Submarinas del Mar Argentino**, un recurso abierto para explorar la biodiversidad marina de la costa argentina mediante fotografías, registros de observación e información sobre las especies.
+
+      La guía permite buscar por nombre científico o común y filtrar por ambiente, tipo de fondo y grupo de organismos. Sus fichas reúnen fotografías y observaciones de iNaturalist, mapas de distribución y contenidos de Wikipedia, con referencias a WoRMS, FishBase y AlgaeBase según el grupo taxonómico.
+
+      Es una herramienta para acercar el mundo submarino a estudiantes, docentes, buzos y personas interesadas en conocer la vida del mar.
+
+      Fotografía de portada: **G. Bravo**, Wikimedia Commons, licencia **CC BY-SA**.
+  en:
+    summary: "An interactive guide to the algae, invertebrates, and fish inhabiting Argentina’s seafloor."
+    body: |
+      I curate the **Underwater Species Guide to the Argentine Sea**, an open resource for exploring marine biodiversity along Argentina’s coast through photographs, observation records, and species information.
+
+      The guide supports searches by scientific or common name and filters by habitat, substrate, and organism group. Species profiles bring together iNaturalist photographs and observations, distribution maps, and Wikipedia content, with references to WoRMS, FishBase, and AlgaeBase depending on the taxonomic group.
+
+      It helps students, educators, divers, and curious visitors discover the underwater world. The guide is available in Spanish.
+
+      Cover photograph: **G. Bravo**, Wikimedia Commons, **CC BY-SA** license.
+  links:
+    - url: https://culturaoceanica.org/guia/
+      es: "Explorar la guía interactiva"
+      en: "Explore the interactive guide (Spanish)"
 - id: ojos-al-mar
   title: "Ojos al Mar"
   cover: /images/projects/ojos-al-mar-horizontal.png
