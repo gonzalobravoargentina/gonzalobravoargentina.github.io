@@ -29,6 +29,11 @@
   title: "Ojos al Mar"
   cover: /images/projects/ojos-al-mar-horizontal.png
   fit: contain
+  videos:
+    - youtube_id: 5nB2eAqAlwM
+      url: https://www.youtube.com/watch?v=5nB2eAqAlwM
+      es: "Ojos al Mar — Tráiler"
+      en: "Ojos al Mar — Trailer"
   es:
     summary: "Un viaje documental al corazón de la Patagonia, entre el océano, sus paisajes y las personas que lo habitan."
     body: |
